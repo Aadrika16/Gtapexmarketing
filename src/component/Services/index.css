@@ -22,7 +22,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   min-height: 90vh;
-  padding: 20px 8% 70px;
+  margin-top: -40px;
   background: linear-gradient(to right, #050505, #0b0b0b);
 }
 .hero-left {
@@ -44,7 +44,7 @@ body {
 }
 
 .hero-left h2 {
-  font-size: 72px;
+  font-size: 30px;
   line-height: 1.1;
   font-weight: 700;
   margin-bottom: 25px;
@@ -72,19 +72,19 @@ body {
 .stat-card {
   background: #111;
   display: flex;
-  height: 100px;
+  height: 140px;
   flex-direction: column;
   justify-content: left;
   text-align: left;
   padding: 10px;
-  width: 180px;
+  width: 250px;
   border: 1px solid #1f1f1f;
 }
 
 .stat-card h3 {
   color: #63ff8e;
-  font-size: 30px;
-  margin-bottom: 8px;
+  font-size: 20px;
+  margin-bottom: 4px;
 }
 
 .stat-card span {
@@ -100,6 +100,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   min-height: 500px;
+  margin-bottom: 80px;
+
 }
 .stats-boxes {
   display: flex;

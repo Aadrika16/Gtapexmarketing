@@ -259,3 +259,156 @@
     padding: 20px 16px;
   }
 }
+
+/* ===================================
+   SERVICES DROPDOWN
+=================================== */
+
+.services-dropdown {
+  position: relative;
+}
+
+.services-dropdown > a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dropdown-icon {
+  font-size: 12px;
+  transition: transform 0.3s ease;
+}
+
+.services-dropdown:hover .dropdown-icon {
+  transform: rotate(180deg);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 48px;
+  left: 0;
+
+  min-width: 320px;
+
+  background: #111;
+  border: 1px solid rgba(0, 255, 91, 0.15);
+
+  border-radius: 14px;
+
+  list-style: none;
+
+  padding: 10px 0;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transform: translateY(10px);
+
+  transition: all 0.3s ease;
+
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.45);
+
+  z-index: 9999;
+}
+
+.show-dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-menu li {
+  width: 100%;
+  padding: 0 !important;
+}
+
+.dropdown-menu li a {
+  width: 100%;
+  display: block;
+
+  padding: 12px 18px;
+
+  color: white;
+
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  transition: all 0.3s ease;
+}
+
+.dropdown-menu li a:hover {
+  background: rgba(0, 255, 91, 0.12);
+  color: #00ff5b;
+  padding-left: 24px;
+}
+
+/* ===================================
+   TABLET
+=================================== */
+
+@media screen and (max-width: 992px) {
+  .dropdown-menu {
+    min-width: 280px;
+  }
+}
+
+/* ===================================
+   MOBILE
+=================================== */
+
+@media screen and (max-width: 768px) {
+
+  .services-dropdown {
+    width: 100%;
+  }
+
+  .services-link {
+    justify-content: center;
+    padding: 14px 0;
+  }
+
+  .dropdown-menu {
+    position: static;
+    width: 100%;
+    min-width: 100%;
+
+    background: rgba(255,255,255,0.05);
+
+    border-radius: 10px;
+
+    opacity: 0;
+    visibility: hidden;
+    max-height: 0;
+
+    overflow: hidden;
+
+    margin-top: 8px;
+
+    transition: all 0.3s ease;
+  }
+
+  .dropdown-menu.show-dropdown {
+    opacity: 1;
+    visibility: visible;
+    max-height: 500px;
+  }
+
+  .dropdown-menu li a {
+    display: block;
+    text-align: center;
+    padding: 12px;
+  }
+}
+
+/* ===================================
+   SMALL MOBILE
+=================================== */
+
+@media screen and (max-width: 480px) {
+  .dropdown-menu li a {
+    font-size: 12px;
+    padding: 10px 24px;
+  }
+}

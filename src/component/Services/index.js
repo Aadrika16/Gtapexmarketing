@@ -9,27 +9,26 @@ const Services = () => {
       <Header />
       <section className="hero-section">
         <div className="hero-left">
-          <span className="status-badge">SYSTEM STATUS : OPTIMAL</span>
+          <span className="status-badge">HYDERABAD'S PERFORMANCE-FIRST DIGITAL AGENCY</span>
 
           <h2>
-            ZERO DRAG<br />
-            <span>MAXIMUM ROI</span>
+            DIGITAL STRATEGIES<br />
+            <span>THAT DELIVER ROI</span>
           </h2>
 
           <p>
-            Precision-engineered growth modules for the digital economy.
-            We calibrate every touchpoint for surgical efficiency and
-            high-velocity conversion.
+            GT Apex Marketing is a full-service digital marketing agency in Hyderabad helping brands grow through SEO, social media marketing, Google Ads, branding, content creation, and web development. We combine creativity with data to build campaigns that generate real business results.
+
           </p>
 
           <div className="stats-boxes">
             <div className="stat-card">
               <h3>360°</h3>
-              <span>ENGINEERING VERTICALS</span>
+              <span> DIGITAL MARKETING SERVICES</span>
             </div>
 
             <div className="stat-card">
-              <h3>0 <span className="ms-span">ms</span></h3>
+              <h3>100<span className="ms-span">%</span></h3>
               <span>DEPLOYMENT LATENCY</span>
             </div>
           </div>

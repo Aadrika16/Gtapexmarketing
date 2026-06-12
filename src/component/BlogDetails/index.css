@@ -556,3 +556,32 @@ font-size:14px;
 }
 
 }
+
+@media(max-width:768px){
+
+.robot-layer canvas{
+
+transform:scale(.75);
+
+}
+
+}
+
+@media(max-width:992px){
+
+.robot-layer canvas{
+
+transform:scale(.75);
+
+}
+
+}
+@media(max-width:480px){
+
+.robot-layer canvas{
+
+transform:scale(.65);
+
+}
+
+}

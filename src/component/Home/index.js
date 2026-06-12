@@ -1,4 +1,5 @@
-import PopupModal from "../PopUpModel"
+import {useState} from "react"
+import PopUpModel from "../PopUpModel"
 import Header from "../Header"
 import StatsCards from "../StatsCards"
 import HeroSection from "../HeroSection"
@@ -7,14 +8,16 @@ import LandingPage from "../LandingPage"
 import ServicesCards from "../ServicesCards"
 import FooterSection from "../FooterSection"
 import FounderSection from "../FounderSection"
-
+import GtApexHero from "../GtApexHero"
 import "./index.css"
 
 const Home = () => {
+  
   return (
     <div className="home-container">
 
-      <PopupModal />
+       <PopUpModel />
+
 
       <Header />
 
@@ -23,7 +26,8 @@ const Home = () => {
         <div className="bg-con">
 
           <div className="hero-overlay">
-            <HeroSection />
+            {/* <HeroSection /> */}
+            <GtApexHero />
           </div>
         </div>
 

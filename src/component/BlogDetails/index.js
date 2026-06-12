@@ -120,26 +120,12 @@ const BlogDetails = () => {
 
         <div className="cta-box">
 
-          <p className="cta-tag">
-            FULL THROTTLE DIGITAL
-          </p>
-
-          <h2>
-            Ready To Scale Your Brand?
-          </h2>
-
-          <p>
-            GT Apex Marketing builds high-performance
-            digital systems for ambitious brands.
-          </p>
-
-          <button>
-            Book Consultation
-          </button>
+         
 
         </div>
 
       </section>
+
 
     </div>
   );

@@ -1,0 +1,168 @@
+/* --- Base Reset --- */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+.hero-main {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: #000;
+  color: white;
+  font-family: sans-serif;
+}
+span{
+    font-size:1.5em;
+    line-height:1.5;
+}
+h5{
+    font-size:1em;
+    line-height:2;
+    width:100%;
+}
+.btn-con{
+    margin-top:30px;
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+.hero-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+/* --- Layout: Pinned to Left --- */
+.hero-content {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: flex-start;        /* Vertically centers everything */
+  justify-content: center; /* Pins panel to the left */
+  padding-left: 5%;           /* Specific left offset */
+}
+
+/* --- Left Panel (Green Glossy Slide Animation) --- */
+.left-panel {
+  width: 400px;
+  z-index: 2;
+  opacity: 0;
+  /* 2.5s duration for a slow, premium entrance */
+  animation: slideUpSlow 2.5s cubic-bezier(0.22, 1, 0.36, 1) 0.5s forwards;
+}
+
+@keyframes slideUpSlow {
+  from { opacity: 0; transform: translateY(100px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* --- Green Glossy Glass Card --- */
+.glass-panel {
+  background: rgba(34, 139, 34, 0.15); /* Forest Green Tint */
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(144, 238, 144, 0.3); /* Light Green Border */
+  border-radius: 24px;
+  padding: 40px;
+  text-align: left;
+  box-shadow: 0 8px 32px 0 rgba(0, 100, 0, 0.2);
+}
+
+/* --- Typography --- */
+h1 { font-size: 3rem; line-height: 1.1; margin-bottom: 25px; color: #fff; }
+em { color: rgba(144, 238, 144, 0.8); font-style: italic; }
+
+.explore-btn {
+  background: rgba(34, 139, 34, 0.8);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 50px;
+  border: 1px solid rgba(144, 238, 144, 0.5);
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.3s;
+}
+
+.explore-btn:hover { background: rgba(34, 139, 34, 1); }
+
+.text-link {
+  display: block; background: none; border: none;
+  color: rgba(255, 255, 255, 0.6); margin-bottom: 12px;
+  cursor: pointer; font-size: 0.95rem;
+}
+
+/* --- Right Panel (Globe) --- */
+.right-panel {
+  position: absolute;
+  right: 10%;
+  width: 300px;
+  height: 300px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* --- Media Queries --- */
+@media (max-width: 1024px) {
+  .left-panel { width: 350px; }
+}
+
+@media (max-width: 768px) {
+  .hero-content { justify-content: center; padding-left: 0; }
+  .right-panel { display: none; }
+  .left-panel { width: 90%; }
+  h1 { font-size: 2rem; text-align: center; }
+}
+@media (max-width: 768px) {
+  /* 1. Reset the flex container for mobile */
+  .hero-content {
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically as well */
+    padding-left: 0;
+    margin-top: 60px;
+  }
+
+  /* 2. Ensure the panel takes up the available space correctly */
+  .left-panel {
+    width: 90%;             /* Use 90% width */
+    max-width: 400px;       /* Prevent it from getting too wide */
+    margin: 0 auto;         /* Force center alignment */
+    padding: 0 10px; 
+    height:auto;
+    min-height: 300px; 
+    max-height: 700px;      /* Add breathing room */
+  }
+
+  /* 3. Adjust Glass Panel padding for small screens */
+  .glass-panel {
+    padding: 25px;          /* Less padding on mobile to save space */
+  }
+
+  /* 4. Scale down typography for better mobile readability */
+  h1 { 
+    font-size: 1.8rem;      /* Smaller heading for mobile */
+    text-align: center; 
+    margin-bottom: 15px; 
+  }
+
+  /* 5. Center the button and links for better UX */
+  .explore-btn {
+    margin: 0 auto 20px auto; 
+  }
+}

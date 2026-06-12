@@ -1,0 +1,288 @@
+/* =========================
+   WHATSAPP WRAPPER
+========================= */
+
+.gtapex-chat-wrapper {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 9999;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* =========================
+   CHAT POPUP
+========================= */
+
+.gtapex-chat-box {
+  position: absolute;
+  bottom: 100px;
+  right: 0;
+
+  width: 340px;
+  max-width: calc(100vw - 30px);
+
+  background: #ffffff;
+  border-radius: 20px;
+
+  overflow: hidden;
+
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.12),
+    0 5px 15px rgba(0, 0, 0, 0.08);
+
+  animation: popupShow 0.35s ease;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.gtapex-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  background: linear-gradient(
+    135deg,
+    #25d366,
+    #1ebe5d
+  );
+
+  color: #ffffff;
+  padding: 18px;
+}
+
+.gtapex-header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.gtapex-header p {
+  margin-top: 4px;
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+.close-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+
+  font-size: 20px;
+  line-height: 1;
+}
+
+/* =========================
+   MESSAGE AREA
+========================= */
+
+.gtapex-message {
+  padding: 20px;
+  background: #f5f7fa;
+}
+
+.gtapex-message span {
+  display: inline-block;
+
+  background: white;
+
+  padding: 14px 16px;
+
+  border-radius: 16px 16px 16px 4px;
+
+  line-height: 1.6;
+  font-size: 14px;
+  color: #333;
+
+  box-shadow:
+    0 3px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* =========================
+   CTA BUTTON
+========================= */
+
+.gtapex-whatsapp-btn {
+  width: calc(100% - 30px);
+
+  margin: 15px;
+
+  border: none;
+  border-radius: 12px;
+
+  background: #25d366;
+  color: #ffffff;
+
+  padding: 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  cursor: pointer;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  transition: all 0.3s ease;
+}
+
+.gtapex-whatsapp-btn:hover {
+  background: #1ebe5d;
+  transform: translateY(-2px);
+}
+
+.btn-icon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+/* =========================
+   FLOATING BUTTON
+========================= */
+
+.floating-whatsapp {
+  width: 85px;
+  height: 85px;
+
+  border: none;
+  background: transparent;
+
+  padding: 0;
+
+  cursor: pointer;
+}
+
+.floating-icon {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+
+  transition: transform 0.3s ease;
+
+  animation: floatIcon 3s ease-in-out infinite;
+}
+
+.floating-whatsapp:hover .floating-icon {
+  transform: scale(1.08);
+}
+
+/* =========================
+   ANIMATIONS
+========================= */
+
+@keyframes floatIcon {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes popupShow {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =========================
+   TABLETS
+========================= */
+
+@media screen and (max-width: 768px) {
+  .gtapex-chat-wrapper {
+    right: 20px;
+    bottom: 20px;
+  }
+
+  .gtapex-chat-box {
+    width: 300px;
+    bottom: 85px;
+  }
+
+  .floating-whatsapp {
+    width: 72px;
+    height: 72px;
+  }
+
+  .gtapex-header h3 {
+    font-size: 17px;
+  }
+
+  .gtapex-message span {
+    font-size: 13px;
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media screen and (max-width: 480px) {
+  .gtapex-chat-wrapper {
+    right: 12px;
+    bottom: 12px;
+  }
+
+  .gtapex-chat-box {
+    width: min(320px, calc(100vw - 24px));
+    bottom: 80px;
+    right: 0;
+  }
+
+  .floating-whatsapp {
+    width: 65px;
+    height: 65px;
+  }
+
+  .gtapex-header {
+    padding: 16px;
+  }
+
+  .gtapex-header h3 {
+    font-size: 16px;
+  }
+
+  .gtapex-header p {
+    font-size: 12px;
+  }
+
+  .gtapex-message {
+    padding: 15px;
+  }
+
+  .gtapex-message span {
+    font-size: 13px;
+    padding: 12px 14px;
+  }
+
+  .gtapex-whatsapp-btn {
+    margin: 12px;
+    width: calc(100% - 24px);
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .btn-icon {
+    width: 24px;
+    height: 24px;
+  }
+}

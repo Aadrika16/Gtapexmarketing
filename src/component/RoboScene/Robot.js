@@ -18,7 +18,8 @@ scene
 "/models/robot_ball.glb"
 )
 
-
+const isTabletOrMobile =
+  window.innerWidth <= 992
 
 /* MATERIAL */
 
@@ -58,119 +59,119 @@ child.receiveShadow = true
 
 useFrame((state, delta) => {
 
-if(!ref.current) return
+  if (!ref.current) return
 
-const sections =
-document.querySelectorAll(
-".editorial-section"
-)
+  let targetX = 0
 
-let targetX = 0
+  if (!isTabletOrMobile) {
 
+    const sections =
+      document.querySelectorAll(
+        ".editorial-section"
+      )
 
-/* HERO */
+    /* HERO */
 
-if(
-window.scrollY < 300
-){
+    if (window.scrollY < 300) {
+      targetX = 0
+    }
 
-targetX = 0
+    /* ARTICLE */
 
-}
+    sections.forEach((section, index) => {
 
-/* ARTICLE */
+      const rect =
+        section.getBoundingClientRect()
 
-sections.forEach((section,index)=>{
+      if (
+        rect.top < window.innerHeight / 2 &&
+        rect.bottom > window.innerHeight / 2
+      ) {
 
-const rect =
-section.getBoundingClientRect()
+        targetX =
+          index % 2 === 0
+            ? 3.2
+            : -3.2
 
-if(
+      }
 
-rect.top <
-window.innerHeight/2
+    })
 
-&&
+    /* CTA */
 
-rect.bottom >
-window.innerHeight/2
+    const cta =
+      document.querySelector(
+        ".cta-section"
+      )
 
-){
+    if (cta) {
 
-targetX =
+      const rect =
+        cta.getBoundingClientRect()
 
-index % 2 === 0
-? 3.2
-: -3.2
+      if (
+        rect.top <
+        window.innerHeight
+      ) {
 
-}
+        targetX = 0
 
-})
+      }
 
+    }
 
-/* CTA */
+  }
 
-const cta =
-document.querySelector(
-".cta-section"
-)
+  /* POSITION X */
 
-if(cta){
+  ref.current.position.x =
+    THREE.MathUtils.damp(
+      ref.current.position.x,
+      isTabletOrMobile ? 0 : targetX,
+      10,
+      delta
+    )
 
-const rect =
-cta.getBoundingClientRect()
+  /* POSITION Y */
 
-if(
-rect.top <
-window.innerHeight
-){
+  const baseY = isTabletOrMobile
+    ? -1.2
+    : -1.8
 
-targetX = 0
+  ref.current.position.y =
+    THREE.MathUtils.damp(
+      ref.current.position.y,
+      baseY,
+      3,
+      delta
+    )
 
-}
+  /* ROTATION */
 
-}
+  if (isTabletOrMobile) {
 
+    ref.current.rotation.y +=
+      delta * 0.4
 
-/* MOVE */
+  } else {
 
-ref.current.position.x =
+    ref.current.rotation.y =
+      THREE.MathUtils.damp(
+        ref.current.rotation.y,
+        -targetX * 0.12,
+        3,
+        delta
+      )
 
-THREE.MathUtils.damp(
-ref.current.position.x,
-targetX,
-10,
-delta
-)
+  }
 
+  /* FLOAT */
 
-ref.current.position.y =
-
-THREE.MathUtils.damp(
-ref.current.position.y,
--1.8,
-3,
-delta
-)
-
-
-ref.current.rotation.y =
-
-THREE.MathUtils.damp(
-ref.current.rotation.y,
--targetX*0.12,
-3,
-delta
-)
-
-
-/* FLOAT */
-
-ref.current.position.y +=
-
-Math.sin(
-state.clock.elapsedTime*1.2
-)*0.002
+  ref.current.position.y +=
+    Math.sin(
+      state.clock.elapsedTime * 1.5
+    ) *
+    (isTabletOrMobile ? 0.08 : 0.002)
 
 })
 
@@ -178,11 +179,8 @@ state.clock.elapsedTime*1.2
 return(
 
 <group
-
-ref={ref}
-
-position={[0,-1.8,0]}
-
+  ref={ref}
+  position={[0,-1.2,0]}
 >
 
 <primitive
