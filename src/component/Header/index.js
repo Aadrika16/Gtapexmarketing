@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation, useHistory } from 'react-router-dom'
 import {
   FaHome,
   FaServicestack,
@@ -14,14 +14,37 @@ import './index.css'
 
 const Header = () => {
   const location = useLocation()
+  const history = useHistory()
 
   const [open, setOpen] = useState(false)
   const [showRegister, setShowRegister] = useState(false)
   const [showServicesDropdown, setShowServicesDropdown] = useState(false)
 
+  const isHomeActive = location.pathname === '/'
+  const isAboutActive = location.pathname === '/about'
+  const isServicesActive = location.pathname.startsWith('/services')
+
   const toggleRegister = () => {
-    setShowRegister(!showRegister)
+    setShowRegister(prev => !prev)
     setOpen(false)
+    setShowServicesDropdown(false)
+  }
+
+ const handleServicesClick = () => {
+  if (window.innerWidth <= 768) {
+    if (!showServicesDropdown) {
+      setShowServicesDropdown(true)
+    } else {
+      closeMobileMenu()
+      history.push('/services')
+    }
+  } else {
+    history.push('/services')
+  }
+}
+  const closeMobileMenu = () => {
+    setOpen(false)
+    setShowServicesDropdown(false)
   }
 
   return (
@@ -30,69 +53,91 @@ const Header = () => {
         <div className="logo">
           <img
             src="https://res.cloudinary.com/doyaebals/image/upload/v1777117610/82023ee6966f15c767c25263f523a655a0945cfe_bxiaan.png"
-            alt="logo"
+            alt="GT Apex Logo"
           />
         </div>
 
-        <div className="hamburger" onClick={() => setOpen(!open)}>
+        <div className="hamburger" onClick={() => setOpen(prev => !prev)}>
           {open ? <FaTimes /> : <FaBars />}
         </div>
 
         <ul className={`nav-menu ${open ? 'active' : ''}`}>
           <li>
-            <Link to="/" className={location.pathname === '/' ? 'active' : ''}>
-              <FaHome /> Home
+            <Link
+              to="/"
+              onClick={closeMobileMenu}
+              className={isHomeActive ? 'active' : ''}
+            >
+              <FaHome />
+              Home
             </Link>
           </li>
 
           <li
             className="services-dropdown"
-            onMouseEnter={() => setShowServicesDropdown(true)}
-            onMouseLeave={() => setShowServicesDropdown(false)}
+            onMouseEnter={() => {
+              if (window.innerWidth > 768) {
+                setShowServicesDropdown(true)
+              }
+            }}
+            onMouseLeave={() => {
+              if (window.innerWidth > 768) {
+                setShowServicesDropdown(false)
+              }
+            }}
           >
-            <Link
-              to="/services"
-              className={location.pathname.includes('/services') ? 'active' : ''}
+            <button
+              type="button"
+              className={`services-link ${isServicesActive ? 'active' : ''}`}
+              onClick={handleServicesClick}
             >
               <FaServicestack />
               Services
-              <FaChevronDown className="dropdown-icon" />
-            </Link>
+              <FaChevronDown
+                className={`dropdown-icon ${
+                  showServicesDropdown ? 'rotate' : ''
+                }`}
+              />
+            </button>
 
-            <ul className={`dropdown-menu ${showServicesDropdown ? 'show-dropdown' : ''}`}>
+            <ul
+              className={`dropdown-menu ${
+                showServicesDropdown ? 'show-dropdown' : ''
+              }`}
+            >
               <li>
-                <Link to="/services/digital-marketing">
-                  DIGITAL MARKETING
+                <Link to="/services/digital-marketing" onClick={closeMobileMenu}>
+                  Digital Marketing
                 </Link>
               </li>
 
               <li>
-                <Link to="/services/performance-marketing">
-                  PERFORMANCE MARKETING
+                <Link to="/services/performance-marketing" onClick={closeMobileMenu}>
+                  Performance Marketing
                 </Link>
               </li>
 
               <li>
-                <Link to="/services/web-design-development">
-                  WEBSITE DESIGN & DEVELOPMENT
+                <Link to="/services/web-design-development" onClick={closeMobileMenu}>
+                  Website Design & Development
                 </Link>
               </li>
 
               <li>
-                <Link to="/services/social-media-marketing">
-                  SOCIAL MEDIA MARKETING
+                <Link to="/services/social-media-marketing" onClick={closeMobileMenu}>
+                  Social Media Marketing
                 </Link>
               </li>
 
               <li>
-                <Link to="/services/data-analytics">
-                  DATA ANALYTICS
+                <Link to="/services/data-analytics" onClick={closeMobileMenu}>
+                  Data Analytics
                 </Link>
               </li>
 
               <li>
-                <Link to="/services/ecommerce">
-                  ECOMMERCE & GROWTH ENGINES
+                <Link to="/services/ecommerce" onClick={closeMobileMenu}>
+                  Ecommerce & Growth Engines
                 </Link>
               </li>
             </ul>
@@ -101,9 +146,11 @@ const Header = () => {
           <li>
             <Link
               to="/about"
-              className={location.pathname === '/about' ? 'active' : ''}
+              onClick={closeMobileMenu}
+              className={isAboutActive ? 'active' : ''}
             >
-              <FaInfoCircle /> About Us
+              <FaInfoCircle />
+              About Us
             </Link>
           </li>
 
@@ -122,10 +169,7 @@ const Header = () => {
           <div className="register-top">
             <h2>Register Now</h2>
 
-            <button
-              className="close-btn"
-              onClick={toggleRegister}
-            >
+            <button className="close-btn" onClick={toggleRegister}>
               ✕
             </button>
           </div>
