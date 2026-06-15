@@ -15,31 +15,24 @@ import "./App.css";
 function App() {
   return (
     <BrowserRouter basename="/Gt">
-     
-      
       <GtApexAssistant />
-
       <Switch>
         <Route exact path="/" component={Home} />
-
         <Route
           exact
           path="/services"
           component={Services}
         />
-
         <Route
           exact
           path="/services/:slug"
           component={BlogDetails}
         />
-
         <Route
           exact
           path="/clients"
           component={Clients}
         />
-
         <Route
           exact
           path="/contact"

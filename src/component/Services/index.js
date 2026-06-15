@@ -41,8 +41,8 @@ const Services = () => {
 
       {/* Modules Section */}
       <section className="modules-section">
-        <span className="section-label">SERVICE ARCHITECTURE</span>
-        <h2>PERFORMANCE ENGINEERING MODULES</h2>
+        <span className="section-label">PERFORMANCE-FIRST SOLUTIONS</span>
+        <h2>DIGITAL SOLUTIONS THAT DRIVE GROWTH</h2>
 
         <div className="module-grid">
           <div className="module-card large-card">

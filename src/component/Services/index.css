@@ -242,6 +242,7 @@ body {
 .modules-section h2 {
   font-size: 42px;
   margin: 15px 0 50px;
+  letter-spacing: 2px;
 }
 
 .module-grid {
