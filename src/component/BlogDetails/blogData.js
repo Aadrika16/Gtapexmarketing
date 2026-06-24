@@ -552,9 +552,7 @@ export const blogs = [
         {
         heading: "Competitor Analysis Tools Worth Knowing",
 
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
-
+   
         content: `
           The right competitor analysis tools make the research faster and the insights sharper. SEMrush and Ahrefs lead for SEO intelligence. SimilarWeb is strong for traffic analysis. Meta Ad Library and Google Ads Transparency Centre reveal paid strategies. Brandwatch and Mention cover social listening.
           Many of these platforms offer free competitor analysis tool tiers that give you enough data to start. For deeper, ongoing intelligence, the paid versions deliver significantly more value.
@@ -564,9 +562,7 @@ export const blogs = [
        {
         heading: "The GT Apex Approach to Competitor Analysis",
 
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
-
+  
         content: `
           At GT Apex, competitor analysis is built into the foundation of every client engagement. Before we build a strategy, we study the battlefield.
           We map the competitive landscape across SEO, content, social, and paid. We identify where competitors are strong and where they're exposed. We find the positioning gaps and the keyword opportunities. And we build a brand strategy designed to win the spaces that matter most.
@@ -575,9 +571,6 @@ export const blogs = [
       },
       {
         heading: "Conclusion",
-
-        image:
-          "https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=1600&auto=format&fit=crop",
 
         content: `
           Your competitors are not standing still. They're publishing content, bidding on keywords, running ads, and building audiences every single day. The brands that know exactly what their competition is doing, and more importantly where they're falling short, are the ones that consistently outpace the market.
@@ -594,16 +587,10 @@ export const blogs = [
     slug: "content-strategy-planning",
 
     category: "content-strategy-planning",
-
-    heroImage:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1800&auto=format&fit=crop",
     intro:"Every brand is publishing content.Blog posts, reels, carousels, newsletters, YouTube videos, LinkedIn updates. The internet is drowning in content. And yet, most of it is doing absolutely nothing for the brands producing it.Not because the content is bad. Because there's no strategy behind it.Content strategy is the difference between a brand that creates and a brand that grows. Between content that fills a calendar and content that builds a business.",
     sections: [
       {
         heading: "What Is Content Strategy?", 
-        image:
-          "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           Content strategy is the planning, creation, distribution, and governance of content that serves a specific business goal. It answers the fundamental questions every brand needs to answer before producing a single piece of content: who are we talking to, what do we want to say, where do we say it, how often, and how do we know if it's working?
           It's the blueprint that sits behind every blog, every post, every video, and every email. Without it, content is just activity. With it, content becomes a growth engine.
@@ -612,9 +599,6 @@ export const blogs = [
 
       {
         heading: "Why Content Strategy Is Important?",
-
-        image:
-          "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1600&auto=format&fit=crop",
 
         content: `
           Here's a story that plays out every day.
@@ -628,20 +612,15 @@ export const blogs = [
       {
         heading: "What Is SEO Content Strategy?",
 
-        image:
-          "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1600&auto=format&fit=crop",
         content: `
            SEO content strategy is where content planning meets search intent. It means creating content that your target audience is actively searching for, structured in a way that Google can understand and reward with rankings.
            What is SEO content strategy in practice? It starts with keyword research, understanding what your audience is searching for at every stage of their journey. Then it moves to content planning, mapping topics to search intent, building content clusters around core themes, and creating pieces that answer real questions with genuine depth and authority.
-           A strong SEO and content strategy doesn't chase algorithms. It serves audiences. And when you consistently serve audiences better than your competitors, Google notices.        
+           A strong SEO and content strategy dsoesn't chase algorithms. It serves audiences. And when you consistently serve audiences better than your competitors, Google notices.        
           `,
       },
 
       {
         heading: "What Is Social Media Content Strategy?",
-
-        image:
-          "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1600&auto=format&fit=crop",
 
         content: `
           Social media content strategy is the application of strategic thinking to your brand's presence across social platforms. It's not a posting schedule. It's a system.
@@ -653,9 +632,6 @@ export const blogs = [
       {
         heading: "What Is Influencer Content Strategy?",
 
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           What is influencer content strategy? It's the integration of creator partnerships into your broader content plan. Not one-off paid posts, but a deliberate approach to using trusted voices to amplify your brand message to audiences that already trust them.
           A strong influencer content strategy defines the type of creators that align with your brand values, the content formats that work best for your goals, the messaging framework that ensures brand consistency across creator content, and the metrics that tell you whether the partnership is delivering real value.
@@ -666,9 +642,6 @@ export const blogs = [
        {
         heading: "What Is a Long-Term Content Strategy?",
 
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           When it comes to a long-term content strategy, most brands underestimate the compounding effect of consistent, well-planned content.
           A blog post published today might rank on page three of Google this month. In six months, with the right internal linking, backlinks, and content cluster support, it could be on page one. That's not luck. That's the compounding return on a long-term content strategy built with patience and precision.
@@ -677,9 +650,6 @@ export const blogs = [
       },
        {
         heading: "Content Strategy for B2B and Ecommerce Brands",
-
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
 
         content: `
           The approach shifts significantly depending on the business model.
@@ -694,9 +664,6 @@ export const blogs = [
       {
         heading: "How to Create a Content Strategy?",
 
-        image:
-          "https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           How to create a content strategy that actually works follows a clear process.
           Define the Goal: What is this content meant to achieve? Traffic, leads, retention, brand awareness? The goal shapes everything.
@@ -710,9 +677,6 @@ export const blogs = [
       },
       {
         heading: "The GT Apex Approach to Content Strategy",
-
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
 
         content: `
           At GT Apex, content strategy is never built in isolation. It's connected to SEO, social media, paid campaigns, and the overall brand narrative. Every content decision is mapped back to a business objective and measured against real outcomes.
@@ -735,24 +699,13 @@ export const blogs = [
   },
    {
     id: 8,
-
     slug: "copywriting-captions",
-
     category: "Copywriting & Captions",
-
-
-
-    heroImage:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1800&auto=format&fit=crop",
     intro:
       "Every brand has something to say.Very few brands know how to say it in a way that makes people stop, read, feel something, and act.That gap, between having a message and delivering it with precision, is where copywriting lives. And it's the gap that separates brands that grow from brands that just exist online.",
     sections: [
       {
         heading: "What Is Copywriting?",
-
-        image:
-          "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           Copywriting is the craft of writing words that are designed to persuade, motivate, and drive a specific action. It's not creative writing for its own sake. Every sentence has a job. Every word earns its place. The goal is always the same: move the reader toward a decision.
           From the headline on your homepage to the caption on your latest reel, from the subject line of your email to the script of your brand film, copywriting is the invisible engine running underneath all of it.
@@ -761,10 +714,6 @@ export const blogs = [
 
       {
         heading: "What Is the Difference Between Copywriting and Content Writing?",
-
-        image:
-          "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           This question comes up constantly, and the distinction matters.
           Content writing is built to inform, educate, and build trust over time. Blog posts, articles, guides, and newsletters are content. They attract an audience and nurture relationships.
@@ -775,9 +724,6 @@ export const blogs = [
 
       {
         heading: "What Is Copywriting in Digital Marketing?",
-
-        image:
-          "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1600&auto=format&fit=crop",
         content: `
           In the context of digital marketing, copywriting touches every single channel.
           It's the ad copy in your Google and Meta campaigns. It's the homepage headline that tells a visitor in three seconds whether they're in the right place. It's the email subject line that determines whether your campaign gets a 40% open rate or ends up in the trash. It's the Instagram caption that makes someone tag a friend.
@@ -787,9 +733,6 @@ export const blogs = [
 
       {
         heading: "What Is SEO Copywriting?",
-
-        image:
-          "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1600&auto=format&fit=crop",
 
         content: `
           SEO copywriting is the intersection of search optimisation and persuasive writing. It means creating content that ranks on Google and converts the reader once they arrive.
@@ -801,22 +744,14 @@ export const blogs = [
       {
         heading: "What Is Website Copywriting?",
 
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           Website copywriting is arguably the most high-stakes copy your brand will ever produce. Your website is your 24/7 salesperson. It's working while you sleep, while you're in meetings, while you're building everything else.
           Every page has a job. The homepage builds instant credibility and directs traffic. The about page builds human connection. The services page converts interest into intent. The contact page removes the final barrier to action.
           Website copywriting done well makes a visitor feel immediately understood. It speaks to their specific problem, offers a credible solution, and makes the next step feel obvious. Done poorly, it loses potential customers in the first ten seconds and hands them to a competitor.
         `,
       },
-
        {
         heading: "What Is Email Copywriting?",
-
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           Email copywriting is the craft of writing emails that get opened, read, and acted on. Subject lines that create genuine curiosity. Preview text that earns the click. Body copy that delivers value and builds toward a single, clear call to action.
           It sounds straightforward. It rarely is.
@@ -825,10 +760,6 @@ export const blogs = [
       },
        {
         heading: "What Is Sales and Marketing Copywriting?",
-
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           Sales and marketing copywriting bridges the gap between the marketing team's message and the sales team's close. It's the proposal that feels tailor-made. The follow-up email that re-engages a cold lead. The case study that removes the last objection before a deal is signed.
           In a B2B context especially, sales copywriting is one of the most underinvested areas of the entire customer acquisition process. Brands pour budget into generating leads and then lose them with generic, uninspired follow-up copy that fails to maintain the momentum.
@@ -836,10 +767,6 @@ export const blogs = [
       },
        {
         heading: "Copywriting Skills: What Separates Good from Great",
-
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           Great copywriting skills go far beyond grammar and style. The best copywriters are part strategist, part psychologist, part storyteller.
           They understand their audience at a deep level: what they fear, what they want, what objections they carry, and what language they actually use. They write with empathy and precision. They know that the first line of any piece of copy has one job: to make the reader want to read the second line.
@@ -856,10 +783,6 @@ export const blogs = [
       },
       {
         heading: "Conclusion",
-
-        image:
-          "https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           Words are the most powerful conversion tool your brand has. They're in every ad, every email, every post, every page of your website. And the quality of those words determines whether your audience keeps scrolling or takes the next step.
           Copywriting is not a commodity. It's a craft. And brands that invest in great copy consistently outperform brands that treat it as an afterthought, across every channel, every campaign, and every metric that matters.
@@ -874,30 +797,18 @@ export const blogs = [
   {
     id: 9,
     slug: "influencer-marketing",
-
     category: "Influencer Marketing",
-
-    heroImage:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1800&auto=format&fit=crop",
     intro:"People don't trust ads the way they used to.They skip them, block them, scroll past them without a second glance. But they do trust people. Specifically, they trust the people they follow, admire, and listen to every single day.That's the foundation of influencer marketing. And when it's done with strategy, it's one of the most powerful brand-building tools alive right now.",
     sections: [
       {
         heading: "What Is Influencer Marketing?", 
-        image:
-          "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           Influencer marketing is the practice of partnering with individuals who have built a trusted audience to promote your brand, product, or service in a way that feels authentic and credible.
           It's not about paying someone with a large following to post a photo with your product. That's advertising dressed up as a recommendation. Real influencer marketing is about finding the right voice, someone whose audience genuinely overlaps with your target market, and building a partnership that delivers value to the creator, their audience, and your brand simultaneously.
           `,
       },
-
       {
         heading: "What Is Influencer Marketing in Digital Marketing?",
-
-        image:
-          "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1600&auto=format&fit=crop",
-
         content: `
            In the broader digital marketing ecosystem, influencer marketing sits at the intersection of content, social media, and word-of-mouth. It amplifies your brand message through trusted human voices instead of brand-owned channels.
            Where a brand post might get 2% organic reach, a creator with a loyal, engaged following can put your product in front of thousands of highly relevant, warm audiences in a single piece of content. That's the leverage that makes influencer marketing so effective when executed with intention.
@@ -906,9 +817,6 @@ export const blogs = [
 
       {
         heading: "What Is UGC in Influencer Marketing?",
-
-        image:
-          "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1600&auto=format&fit=crop",
         content: `
             UGC, or user-generated content, is one of the most valuable outputs of a well-run influencer marketing programme. It's content created by real people, not brand studios, that features or references your product authentically.
             What is UGC in influencer marketing? It's the review video, the unboxing reel, the honest testimonial, the "this changed my routine" post that a creator publishes because they genuinely use and believe in what you offer. This type of content converts at significantly higher rates than polished brand content because audiences recognise the authenticity immediately.
@@ -918,10 +826,6 @@ export const blogs = [
 
       {
         heading: "What Are the Benefits of Influencer Marketing?",
-
-        image:
-          "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           What are the benefits of influencer marketing? The list is real and measurable.
           Trust transfers instantly. When a creator their audience respects recommends your brand, that credibility attaches to you immediately. Targeted reach becomes accessible at scale. Instead of broadcasting to a broad audience and hoping for relevance, you're speaking directly through someone your exact target customer already follows. Content production is built in. Every partnership generates content your brand can use across multiple touchpoints. And conversion rates on warm influencer audiences consistently outperform cold ad traffic.  
@@ -931,9 +835,6 @@ export const blogs = [
       {
         heading: "What Is Micro Influencer Marketing?",
 
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           Micro influencer marketing is one of the most undervalued strategies in the space. Micro influencers typically have between 10,000 and 100,000 followers, but what they lack in scale they more than compensate for in engagement and trust.
           Their audiences are tighter, more loyal, and more responsive. A recommendation from a micro influencer often carries more genuine weight than a post from a mega celebrity because the relationship feels personal and real. For startups and growth-stage brands especially, micro influencer marketing delivers exceptional ROI at a fraction of the cost of large-scale creator partnerships.
@@ -942,10 +843,6 @@ export const blogs = [
 
        {
         heading: "What Is Influencer Marketing Strategy?",
-
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           A real influencer marketing strategy goes far beyond finding someone with a big following and sending them a product.
           It starts with defining the goal. Are you building brand awareness, driving traffic, generating UGC, or directly converting sales? The goal determines everything: the type of creator, the platform, the content format, and the metrics you track.
@@ -956,10 +853,6 @@ export const blogs = [
       },
        {
         heading: "How Much Does Influencer Marketing Cost?",
-
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           How much does influencer marketing cost depends enormously on the creator tier, platform, content format, and usage rights.
           Micro influencers might work for product exchanges or modest fees. Mid-tier creators with strong engagement command higher rates. Top-tier and celebrity partnerships move into significant investment territory. But the question is never just "what does it cost?" It's "what does it return?"
@@ -971,10 +864,6 @@ export const blogs = [
       },
       {
         heading: "How to Run a Successful Influencer Marketing Campaign?",
-
-        image:
-          "https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           How to create a successful influencer marketing campaign follows a clear framework.
           Define the objective and the audience first. Research and shortlist creators based on audience alignment, engagement rate, and content quality, not just follower count. Build a brief that protects the brand while empowering the creator. Agree on deliverables, timelines, and usage rights upfront. Track performance against the metrics that connect to the original goal. And build long-term relationships with creators who deliver, because repeated partnerships build far more trust than one-off posts.
@@ -985,7 +874,6 @@ export const blogs = [
           },
       {
         heading: "Conclusion",
-        image:"https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=1600&auto=format&fit=crop",
         content : `
           Audiences are tired of being advertised to. They're not tired of being recommended to by people they trust. That's the gap influencer marketing fills, and it fills it in a way that no other channel can replicate.
           Done right, it builds brand credibility faster than organic content and converts warmer than cold advertising. Done wrong, it's a budget drain with a logo attached to someone else's content.
@@ -1002,15 +890,10 @@ export const blogs = [
 
     category: "WhatsApp & SMS Marketing",
 
-    heroImage:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1800&auto=format&fit=crop",
     intro:"Email sits in an inbox. Social posts get buried by algorithms. Ads get skipped.But a message on WhatsApp or SMS? It gets read. Almost every single time.Open rates for SMS marketing sit consistently above 90%. WhatsApp marketing messages regularly see engagement rates that leave every other channel behind. And yet, most brands are still sleeping on both.That ends here.",
     sections: [
       {
         heading: "What Is WhatsApp Marketing?", 
-        image:
-          "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           WhatsApp marketing is the practice of using the WhatsApp platform to communicate directly with customers, prospects, and leads in a way that feels personal, immediate, and engaging. It's not just about sending messages. It's about building relationships through a channel that people use every day to connect with friends and family.WhatsApp marketing is the use of WhatsApp as a direct communication channel between a brand and its customers. It covers promotional messages, product launches, personalised offers, order updates, customer support, and automated conversation flows, all delivered to a platform where your audience is already active and attentive every single day.
           It's not spam. Done right, WhatsApp marketing is permission-based, personalised, and genuinely useful to the person receiving it. That's exactly why it converts. 
@@ -1019,10 +902,6 @@ export const blogs = [
 
       {
         heading: "What Is SMS Marketing?",
-
-        image:
-          "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           SMS marketing is the practice of sending targeted text messages to customers and prospects to drive awareness, engagement, and action. It's one of the oldest forms of mobile marketing and still one of the most effective.
           What is SMS marketing in digital marketing? It's the most direct, unfiltered line of communication your brand has. No algorithm decides whether your message gets seen. No inbox filter moves it to promotions. It lands in the phone, and it gets read.
@@ -1032,9 +911,6 @@ export const blogs = [
 
       {
         heading: "Why These Channels Outperform Everything Else?",
-
-        image:
-          "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1600&auto=format&fit=crop",
         content: `
           The story is in the numbers.
           The average email open rate across industries hovers around 20 to 25%. The average SMS open rate? Above 90%, with most messages read within three minutes of delivery. WhatsApp marketing performs similarly, with the added advantage of rich media support, two-way conversation capability, and the trust that comes from a platform people associate with personal communication.
@@ -1048,10 +924,6 @@ export const blogs = [
 
       {
         heading: "How to Automate Personalised SMS Marketing?",
-
-        image:
-          "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           How to automate personalised SMS marketing follows the same logic. The best SMS marketing platforms allow brands to segment their audience by behaviour, purchase history, location, or stage in the customer journey and trigger highly relevant messages automatically.
           A real estate brand can send property alerts to leads who've viewed specific listings. An e-commerce brand can send restock notifications to customers who've previously purchased a sold-out item. A service business can send appointment reminders and follow-up satisfaction messages without lifting a finger.
@@ -1060,11 +932,7 @@ export const blogs = [
       },
 
       {
-        heading: "How to Use Keywords in SMS Marketing?",
-
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
-
+        heading: "How to Use Keywords in SMS Marketing?",    
         content: `
           How to use keywords in SMS marketing is a question that comes up often, and the answer is straightforward. Keywords in SMS marketing are short words or phrases that customers text to a shortcode to opt in to a campaign, trigger an automated response, or interact with a service.
           For example, a brand runs a campaign: "Text APEX to 56789 for your exclusive discount." The keyword APEX triggers an automated response with the offer. It's simple, measurable, and highly effective for building opt-in lists and driving immediate engagement.
@@ -1073,10 +941,6 @@ export const blogs = [
 
        {
         heading: "How Many Characters Are Allowed in SMS Marketing?",
-
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
-
         content: `
            How many maximum characters are allowed in SMS marketing? A standard SMS is 160 characters. Messages longer than 160 characters are split into multiple segments, each billed separately by most platforms.
            This constraint is actually a creative advantage. It forces clarity and precision. Every word must earn its place. The best SMS copy is tight, direct, and action-oriented. If you can't say it in 160 characters with impact, the message needs reworking, not lengthening
@@ -1084,10 +948,6 @@ export const blogs = [
       },
        {
         heading: "How Much Does SMS Marketing Cost?",
-
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
-
         content: `
            How much does SMS marketing cost varies by platform, volume, and geography. Most SMS marketing services operate on a per-message pricing model, with costs decreasing significantly at higher volumes.
            For bulk SMS marketing in India, rates are competitive and the reach is extraordinary given the scale of mobile penetration across the country. The ROI calculation is straightforward: low cost per message, high open rates, measurable conversions. Few channels match it for cost efficiency at scale.
@@ -1103,10 +963,8 @@ export const blogs = [
            We design the audience segmentation, build the automation flows, write the copy, set up the integrations, and track ROI at every stage. The goal is always the same: the right message, to the right person, at the right moment, on the channel they're actually paying attention to.
         `,
       },
-      
       {
         heading: "Conclusion",
-        image:"https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=1600&auto=format&fit=crop",
         content : `
            Your audience is on their phone. They're reading their messages. The question is whether your brand is showing up in that space with something worth reading.
            WhatsApp marketing and SMS marketing are the most direct, highest-engagement channels available to brands right now. Used strategically, with automation, personalisation, and clear intent, they drive results that broader broadcast channels consistently fail to match.
@@ -1122,16 +980,11 @@ export const blogs = [
     slug: "analytics-monthly-reporting",
 
     category: "Analytics & Monthly Reporting",
-
-    heroImage:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1800&auto=format&fit=crop",
     intro:"Most brands are busy. Posting content, running ads, sending emails, managing campaigns across five channels simultaneously.But here's the uncomfortable question: do you actually know what's working?Not a feeling. Not a hunch. Real numbers, real insights, real decisions backed by data.That's what analytics and reporting delivers. And without it, every marketing decision your brand makes is just an expensive guess.",
     sections: [
       {
         heading: "What Is Analytics and Reporting?", 
-        image:
-          "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?q=80&w=1600&auto=format&fit=crop",
-
+        
         content: `
           Analytics and reporting is the process of collecting, interpreting, and presenting data from your marketing activities to understand performance, identify opportunities, and make smarter decisions going forward.
           What is the difference between reporting and analytics? Reporting tells you what happened. Analytics tells you why it happened and what to do about it. Both matter. Together, they form the intelligence layer that sits underneath every high-performing marketing strategy.
@@ -1141,10 +994,6 @@ export const blogs = [
 
       {
         heading: "What Is Marketing Analytics Reporting?",
-
-        image:
-          "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           Marketing analytics reporting is the application of data analysis specifically to your marketing channels and campaigns. It pulls performance data from every touchpoint, your website, social platforms, paid campaigns, email, and SEO, and synthesises it into a clear picture of what's driving growth and what's draining budget.
           A strong marketing analytics reporting system doesn't just show you numbers. It shows you patterns. It reveals which campaigns are generating the highest quality leads, which content formats are driving the most engagement, which channels are delivering the best return, and where the drop-offs in your funnel are happening and why.
@@ -1153,9 +1002,6 @@ export const blogs = [
 
       {
         heading: "What Makes Analytics Reporting Actionable?",
-
-        image:
-          "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1600&auto=format&fit=crop",
         content: `
           Data without direction is just noise. What makes analytics reporting actionable is the layer of interpretation that sits between the numbers and the decisions.
           An actionable analytics reporting framework answers three questions every single month. What worked and why? What didn't work and why? What do we change, cut, or double down on next month? When your monthly report answers those three questions with clarity and evidence, it stops being a document and starts being a growth roadmap.
@@ -1164,10 +1010,6 @@ export const blogs = [
 
       {
         heading: "What Is the Difference Between Reporting and Analytics?",
-
-        image:
-          "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           This distinction is worth understanding clearly because most brands confuse the two.
           Reporting is descriptive. It tells you what happened over a given period. Sessions were up 12%. Email open rate dropped 4%. Ad spend generated 200 clicks. These are facts.
@@ -1180,10 +1022,6 @@ export const blogs = [
 
       {
         heading: "What is reporting time zone in Google Analytics?",
-
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           It's the timezone setting that determines how your data is recorded and displayed. Getting this right matters because misaligned timezone settings can skew your day-by-day reporting and lead to incorrect conclusions about when your audience is most active.
           Used properly, Google Analytics reporting is one of the most powerful free tools available to any brand serious about understanding their digital performance.
@@ -1198,10 +1036,6 @@ export const blogs = [
 
        {
         heading: "What Are the Types of Reporting in Data Analytics?",
-
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           What are the types of reporting in data analytics that brands actually need? There are four that matter most.
           Operational reporting covers day-to-day performance metrics across channels. Strategic reporting tracks progress toward longer-term business goals. Analytical reporting digs into the why behind the numbers. And predictive reporting uses historical data to forecast future performance and inform planning.
@@ -1214,8 +1048,7 @@ export const blogs = [
       },
       {
         heading: "Conclusion",
-        image:"https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=1600&auto=format&fit=crop",
-        content : `
+         content : `
            You cannot grow what you cannot measure. And you cannot measure what you're not tracking.
            Analytics and monthly reporting is the foundation of every marketing decision that actually moves a brand forward. It replaces gut feel with evidence, replaces reactive decisions with proactive strategy, and replaces wasted budget with focused, measurable investment.
            Full Throttle Digital means knowing exactly where every rupee is going, exactly what it's returning, and exactly what to do next.
@@ -1228,18 +1061,12 @@ export const blogs = [
   {
     id: 12,
     slug: "linkedin-management",
-
     category: "LinkedIn Management",
-
-    heroImage:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1800&auto=format&fit=crop",
     intro:"Every brand is fighting for attention on Instagram and Facebook.Meanwhile, LinkedIn sits quietly in the background, filled with decision-makers, founders, investors, hiring managers, and high-intent professionals who are actively looking for solutions, partners, and brands they can trust.And most brands are completely ignoring it.That's not a problem. That's an opportunity.",
     sections: [
       {
         heading: "What Is LinkedIn Management?", 
-        image:
-          "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?q=80&w=1600&auto=format&fit=crop",
-
+        
         content: `
           LinkedIn management is the strategic, consistent, and intentional handling of a brand or individual's presence on LinkedIn. It covers content creation, profile optimisation, audience engagement, lead generation, and performance tracking, all working together to build authority, visibility, and real business outcomes on the world's largest professional network.
           It's not logging in once a week to like a few posts. It's a system. A deliberate approach to showing up on the platform where your next client, your next hire, and your next partnership are already spending time.
@@ -1248,10 +1075,6 @@ export const blogs = [
 
       {
         heading: "Why LinkedIn Is Different From Every Other Platform?",
-
-        image:
-          "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           LinkedIn is not a social media platform in the traditional sense. It's a professional intent platform. The people scrolling LinkedIn are not looking for entertainment. They're looking for insights, solutions, credibility signals, and brands worth trusting.
           That changes everything about how content should be created, how engagement should be managed, and what success actually looks like. A LinkedIn management agency that treats LinkedIn like Instagram will always underdeliver. The platforms require fundamentally different strategies because the audiences are in fundamentally different mindsets.
@@ -1260,9 +1083,6 @@ export const blogs = [
 
       {
         heading: "What Does LinkedIn Management Actually Cover?",
-
-        image:
-          "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1600&auto=format&fit=crop",
         content: `
           A complete LinkedIn management service goes far deeper than posting content. Here's what a proper system looks like:
           Profile and company page optimisation that positions the brand and the founder as credible authorities in their space. Content strategy built around thought leadership, industry insights, and genuine value for a professional audience. Consistent publishing that keeps the brand visible and top of mind with the right people. Community engagement that builds real relationships, not just follower counts. LinkedIn management lead generation, identifying and nurturing high-value connections that convert into conversations and opportunities. And performance reporting that tracks what's actually moving the needle.
@@ -1275,10 +1095,6 @@ export const blogs = [
 
       {
         heading: "How Much to Charge for LinkedIn Management?",
-
-        image:
-          "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1600&auto=format&fit=crop",
-
         content: `
             How much to charge for LinkedIn management is one of the most searched questions in this space, and the answer depends significantly on the scope of work.
             A basic LinkedIn management service covering content creation and scheduling sits at one price point. A full-service engagement covering strategy, content, engagement, lead generation, and reporting sits at another. What matters is understanding the value being created. A single enterprise client sourced through a well-managed LinkedIn presence can return the entire cost of management many times over.
@@ -1292,9 +1108,6 @@ export const blogs = [
 
       {
         heading: "Personal Brand vs Company Page: Which Matters More?",
-
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
 
         content: `
           The honest answer is both, but for different reasons.
@@ -1310,7 +1123,6 @@ export const blogs = [
       },
       {
         heading: "Conclusion",
-        image:"https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=1600&auto=format&fit=crop",
         content : `
             LinkedIn is where business decisions get made. Where reputations get built. Where the right content, published consistently, turns a professional profile into an inbound lead machine.
             LinkedIn management is not about vanity metrics or follower counts. It's about being visible to the right people, saying the right things, and building the kind of trust that eventually converts into clients, partnerships, and revenue.
@@ -1327,15 +1139,11 @@ export const blogs = [
 
     category: "Graphic Design & Creatives",
 
-    heroImage:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1800&auto=format&fit=crop",
-    intro:"In the fraction of a second it takes for someone to land on your website, scroll past your post, or glance at your ad, they've already formed an impression. That impression is built entirely by your visuals. Your colours, your typography, your layout, your creative direction. All of it communicates something about your brand before your audience consciously processes a single word.That's the power of graphic design. And that's exactly why getting it right is not optional.",
+       intro:"In the fraction of a second it takes for someone to land on your website, scroll past your post, or glance at your ad, they've already formed an impression. That impression is built entirely by your visuals. Your colours, your typography, your layout, your creative direction. All of it communicates something about your brand before your audience consciously processes a single word.That's the power of graphic design. And that's exactly why getting it right is not optional.",
     sections: [
       {
         heading: "What Is Graphic Design?", 
-        image:
-          "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?q=80&w=1600&auto=format&fit=crop",
-
+     
         content: `
            Graphic design is the art and practice of visual communication. It combines imagery, typography, colour, and layout to convey a message, evoke an emotion, and guide an audience toward a specific response.
            In a business context, graphic design is the visual language of your brand. It's how your brand looks, feels, and is remembered across every touchpoint, from your logo and website to your social media creatives, ad campaigns, pitch decks, and packaging.
@@ -1345,10 +1153,6 @@ export const blogs = [
 
       {
         heading: "What Is Typography in Graphic Design?",
-
-        image:
-          "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           Typography in graphic design is the art of arranging text in a way that is both readable and visually compelling. Font choice, size, spacing, weight, and hierarchy all work together to direct the reader's eye, establish brand personality, and ensure the message lands with clarity and impact.
           Typography is often the most underestimated element of graphic design. The right font pairing can make a brand feel premium, approachable, authoritative, or playful. The wrong choice undermines even the most well-thought-out visual concept. Great designers understand that type is not just text. It's tone.
@@ -1358,8 +1162,6 @@ export const blogs = [
       {
         heading: "What Is Graphic Design Software?",
 
-        image:
-          "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1600&auto=format&fit=crop",
         content: `
           The tools a designer uses matter, but they're secondary to the thinking that drives the work. That said, understanding the landscape of graphic design software gives brands a clearer picture of what professional design production actually involves.
           What is the best software for graphic design? Industry standards include Adobe Illustrator for vector graphics and logo design, Adobe Photoshop for image editing and digital art, Adobe InDesign for layout and print design, and Figma for UI and web design. Canva graphic design sits at the accessible end of the spectrum, useful for quick social content but limited in the depth and precision that professional brand work requires.
@@ -1369,9 +1171,6 @@ export const blogs = [
 
       {
         heading: "Why Graphic Design Matters for Marketing?",
-
-        image:
-          "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1600&auto=format&fit=crop",
 
         content: `
           Here's where it gets commercially important.
@@ -1384,9 +1183,6 @@ export const blogs = [
       {
         heading: "What Makes a Great Creative for Social Media?",
 
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
-
         content: `
            A great social media creative does several things simultaneously. It stops the scroll in under a second. It communicates the core message even without the caption. It feels native to the platform it lives on while staying true to the brand identity. And it guides the viewer toward a clear next action.
            This is a very different brief from a print ad or a website banner. Social media design requires an understanding of platform behaviour, audience psychology, and content formats specific to each channel. A creative that performs brilliantly on LinkedIn will likely fall flat on Instagram. A design built for a Facebook feed ad needs to work as a story unit too.
@@ -1395,9 +1191,6 @@ export const blogs = [
 
        {
         heading: "Graphic design services built for digital marketing understand these distinctions and design accordingly.",
-
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
 
         content: `
           Brand Identity and Graphic Design
@@ -1417,7 +1210,6 @@ export const blogs = [
       },
       {
         heading: "Conclusion",
-        image:"https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=1600&auto=format&fit=crop",
         content : `
            Graphic design is the first thing your audience sees and the last thing most brands invest in properly. That gap is an opportunity for the brands that get it right.
            In a world where attention is the scarcest resource, visuals are what earn it. Strong creatives build brand recognition, support every marketing channel, and convert attention into action faster than any other single element of your marketing.
@@ -1434,15 +1226,11 @@ export const blogs = [
 
     category: "Meta Ads (Facebook/Instagram)",
 
-    heroImage:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1800&auto=format&fit=crop",
     intro:"Every brand wants more reach. More leads. More sales.And almost every brand has boosted a post at some point, watched the impressions roll in, seen zero return, and quietly concluded that Meta Ads either don't work or are too expensive to justify.That conclusion is wrong. And it's costing brands serious growth every single month.Meta Ads work. The issue is almost never the platform. It's the strategy, the creative, the targeting, and the structure of the campaigns behind them.",
     sections: [
       {
         heading: "What Are Meta Ads?", 
-        image:
-          "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?q=80&w=1600&auto=format&fit=crop",
-
+  
         content: `
            Meta Ads are paid advertisements that run across Facebook and Instagram, two of the most widely used platforms on the planet, through Meta's unified advertising platform. They appear in feeds, stories, reels, the explore page, the marketplace, and across Meta's broader audience network.
            What makes Meta Ads genuinely powerful is the targeting infrastructure behind them. Meta has spent over a decade building one of the most sophisticated audience data systems ever created. Age, location, interests, behaviours, life events, purchase intent, and lookalike modelling based on your existing customers. The ability to put the right message in front of the right person at the right moment is unmatched at the scale Meta operates.
@@ -1452,9 +1240,7 @@ export const blogs = [
       {
         heading: "Why Meta Ads Are Still One of the Most Powerful Paid Channels?",
 
-        image:
-          "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1600&auto=format&fit=crop",
-
+  
         content: `
           Brands occasionally declare that Facebook is dead or that Instagram ads no longer convert. The data consistently says otherwise.
           Meta's platforms collectively reach billions of active users every single month. The average user spends significant time daily across Facebook and Instagram. And critically, Meta's advertising tools have continued to evolve with sophisticated campaign objectives, creative formats, and optimisation capabilities that reward brands who know how to use them properly.
@@ -1465,9 +1251,7 @@ export const blogs = [
       {
         heading: "The Anatomy of a High-Performing Meta Ad Campaign",
 
-        image:
-          "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1600&auto=format&fit=crop",
-        content: `
+      content: `
           Most brands that struggle with Meta Ads are not struggling because the platform doesn't work. They're struggling because their campaigns are built without the structure that performance requires.
           A high-performing Meta Ads campaign starts with campaign objective clarity. Are you building awareness, driving traffic, generating leads, or optimising for purchases? The objective determines how Meta's algorithm allocates your budget and what actions it prioritises. Getting this wrong from the start means the entire campaign is optimised for the wrong outcome.
           Next comes audience architecture. Cold audiences, warm audiences, and retargeting audiences all require different messaging, different creative approaches, and different bid strategies. Running the same ad to someone who has never heard of your brand and someone who has visited your pricing page three times is a fundamental strategic error that burns budget and kills performance.
@@ -1478,10 +1262,6 @@ export const blogs = [
 
       {
         heading: "Facebook Ads vs Instagram Ads: What's the Difference?",
-
-        image:
-          "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           Both run through the same Meta Ads platform, but they serve different purposes and perform differently depending on the brand, the audience, and the creative format.
           Facebook generally performs stronger for older demographics, longer-form content, lead generation campaigns, and community-driven marketing. Its detailed targeting options and strong retargeting infrastructure make it a powerful tool for considered purchase decisions and B2B-adjacent campaigns.
@@ -1492,10 +1272,6 @@ export const blogs = [
 
       {
         heading: "Creative Strategy for Meta Ads",
-
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
-
         content: `
            Creative is where most Meta Ads campaigns are won or lost. Not in the targeting dashboard. Not in the budget settings. In the first two seconds of a video or the first glance at a static image.
            The scroll happens fast. An ad has a fraction of a second to earn attention before the thumb moves on. That means the hook is everything. The first frame of a video, the headline of a static ad, the first line of the caption. If it doesn't stop the scroll, nothing else in the campaign matters.
@@ -1506,10 +1282,6 @@ export const blogs = [
 
        {
         heading: "Retargeting: Where Meta Ads Really Convert",
-
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           The highest-converting Meta Ads campaigns are almost always retargeting campaigns. And most brands underinvest in them dramatically.
           Retargeting means showing ads specifically to people who have already interacted with your brand. Website visitors who didn't convert. People who watched 75% of your video. Users who added to cart but didn't purchase. Followers who engage with your content regularly.
@@ -1518,7 +1290,6 @@ export const blogs = [
       },
       {
         heading: "Conclusion",
-        image:"https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=1600&auto=format&fit=crop",
         content : `
            Graphic design is the first thing your audience sees and the last thing most brands invest in properly. That gap is an opportunity for the brands that get it right.
            In a world where attention is the scarcest resource, visuals are what earn it. Strong creatives build brand recognition, support every marketing channel, and convert attention into action faster than any other single element of your marketing.
@@ -1539,9 +1310,7 @@ export const blogs = [
     sections: [
       {
         heading: "What Is Brand Identity and Strategy?", 
-        image:
-          "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?q=80&w=1600&auto=format&fit=crop",
-
+ 
         content: `
            Brand identity and strategy is the deliberate construction of how a brand presents itself to the world and how it plans to build a lasting position in the minds of its audience.Brand identity is the visual and verbal expression of your brand. It covers your logo, colour palette, typography, imagery style, tone of voice, and the consistent design language that makes your brand instantly recognisable across every touchpoint.Brand strategy is the thinking that sits behind all of it. It defines your brand's purpose, your positioning in the market, your target audience, your value proposition, your competitive differentiation, and the long-term direction your brand is building toward.Together, brand identity and strategy form the blueprint that every piece of marketing, every campaign, every piece of content, and every customer interaction is built on. Without the blueprint, you're building on sand.
 
@@ -1551,8 +1320,6 @@ export const blogs = [
       {
         heading: "Why Brand Identity and Strategy Matter More Than Most Brands Realise?",
 
-        image:
-          "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1600&auto=format&fit=crop",
 
         content: `
         Here's a story that plays out constantly.
@@ -1565,9 +1332,6 @@ export const blogs = [
 
       {
         heading: "What Goes Into Building a Brand Identity?",
-
-        image:
-          "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1600&auto=format&fit=crop",
         content: `
           Building a genuine brand identity is a structured process, not a creative exercise. It starts with deep strategic thinking and ends with a complete visual and verbal system that your entire team can execute consistently.
           The process begins with brand discovery. Understanding the business at its core, its purpose, its values, its competitive landscape, and the audience it is trying to reach and resonate with. This is the research phase and it informs every creative decision that follows.
@@ -1580,10 +1344,6 @@ export const blogs = [
 
       {
         heading: "What Is Brand Strategy and How Is It Different From Brand Identity?",
-
-        image:
-          "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           Brand strategy is the long-term plan for how a brand will build and maintain its position in the market and in the minds of its audience. It answers the fundamental questions: who are we, who are we for, why do we exist, and how do we win?
           Brand identity is how that strategy is expressed visually and verbally. Strategy is the thinking. Identity is the execution of that thinking.
@@ -1595,10 +1355,6 @@ export const blogs = [
 
       {
         heading: "How to Build Brand Identity and Strategy for a Startup?",
-
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
-
         content: `
            For startups and growth-stage brands, building brand identity and strategy early is one of the highest-leverage investments available. Here's why.
            Every piece of content you produce, every ad you run, every sales conversation you have, and every customer experience you deliver either builds your brand or dilutes it. Without a clear identity and strategy in place, you're making those brand-building moments inconsistently, which means the cumulative impression your audience forms is unclear, forgettable, or worse, contradictory.
@@ -1609,10 +1365,6 @@ export const blogs = [
 
        {
         heading: "The GT Apex Approach to Brand Identity and Strategy?",
-
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           At GT Apex, brand identity and strategy is where every client engagement begins. Because no amount of social media management, SEO, paid advertising, or content production delivers its full potential without a clear, consistent brand foundation underneath it.
           We run a complete brand discovery process that gets to the core of what a business truly is and who it's truly for. We build positioning that is specific, defensible, and genuinely differentiated in the market. We develop verbal and visual identity systems that are distinctive, consistent, and built to scale. And we create the guidelines that ensure the brand stays sharp and consistent no matter how many channels it operates across or how fast it grows.
@@ -1632,15 +1384,10 @@ export const blogs = [
     slug: "brand-identity-strategy",
 
     category: "Brand Identity & Strategy",
-
-    heroImage:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1800&auto=format&fit=crop",
     intro:"Most brands start with a logo.They pick a colour they like, find a font that looks clean, and call it a brand. Then they spend months wondering why their marketing isn't landing, why their audience isn't connecting, and why their content feels inconsistent no matter how much effort goes into it.The logo was never the problem. The absence of a real brand identity and strategy was.Because a brand is not a logo. It's not a colour palette. It's not a tagline. It's the complete, intentional system of who you are, what you stand for, how you communicate, and how you make people feel every single time they encounter you. And without that system built deliberately from the ground up, everything else in your marketing is just noise with a logo attached.",
     sections: [
       {
         heading: "What Is Brand Identity and Strategy?", 
-        image:
-          "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?q=80&w=1600&auto=format&fit=crop",
 
         content: `
           Brand identity and strategy is the deliberate construction of how a brand presents itself to the world and how it plans to build a lasting position in the minds of its audience.Brand identity is the visual and verbal expression of your brand. It covers your logo, colour palette, typography, imagery style, tone of voice, and the consistent design language that makes your brand instantly recognisable across every touchpoint.Brand strategy is the thinking that sits behind all of it. It defines your brand's purpose, your positioning in the market, your target audience, your value proposition, your competitive differentiation, and the long-term direction your brand is building toward.Together, brand identity and strategy form the blueprint that every piece of marketing, every campaign, every piece of content, and every customer interaction is built on. Without the blueprint, you're building on sand.
@@ -1650,9 +1397,7 @@ export const blogs = [
       {
         heading: "Why Brand Identity and Strategy Matter More Than Most Brands Realise?",
 
-        image:
-          "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1600&auto=format&fit=crop",
-
+        
         content: `
           Here's a story that plays out constantly.
           Two brands enter the same market with similar products at similar price points. One has invested in a clear brand identity and strategy. Their visual identity is sharp and consistent. Their tone of voice is distinctive. Their positioning is clear and their audience knows exactly what they stand for. The other brand has a logo and a website and a social media page that posts content whenever someone remembers to.
@@ -1664,9 +1409,6 @@ export const blogs = [
 
       {
         heading: "What Goes Into Building a Brand Identity?",
-
-        image:
-          "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1600&auto=format&fit=crop",
         content: `
           Building a genuine brand identity is a structured process, not a creative exercise. It starts with deep strategic thinking and ends with a complete visual and verbal system that your entire team can execute consistently.
           The process begins with brand discovery. Understanding the business at its core, its purpose, its values, its competitive landscape, and the audience it is trying to reach and resonate with. This is the research phase and it informs every creative decision that follows.
@@ -1680,10 +1422,7 @@ export const blogs = [
       {
         heading: "What Is Brand Strategy and How Is It Different From Brand Identity?",
 
-        image:
-          "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1600&auto=format&fit=crop",
-
-        content: `
+       content: `
           Brand strategy is the long-term plan for how a brand will build and maintain its position in the market and in the minds of its audience. It answers the fundamental questions: who are we, who are we for, why do we exist, and how do we win?
           Brand identity is how that strategy is expressed visually and verbally. Strategy is the thinking. Identity is the execution of that thinking.
           The most common mistake brands make is investing in identity without strategy. They end up with a beautiful visual system that has no clear direction, no defined positioning, and no consistent message underneath it. It looks good. It says nothing. And it converts nobody.
@@ -1695,9 +1434,7 @@ export const blogs = [
       {
         heading: "How to Build Brand Identity and Strategy for a Startup?",
 
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
-
+       
         content: `
           For startups and growth-stage brands, building brand identity and strategy early is one of the highest-leverage investments available. Here's why.
           Every piece of content you produce, every ad you run, every sales conversation you have, and every customer experience you deliver either builds your brand or dilutes it. Without a clear identity and strategy in place, you're making those brand-building moments inconsistently, which means the cumulative impression your audience forms is unclear, forgettable, or worse, contradictory.
@@ -1709,9 +1446,6 @@ export const blogs = [
        {
         heading: "The GT Apex Approach to Brand Identity and Strategy?",
 
-        image:
-          "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           At GT Apex, brand identity and strategy is where every client engagement begins. Because no amount of social media management, SEO, paid advertising, or content production delivers its full potential without a clear, consistent brand foundation underneath it.
           We run a complete brand discovery process that gets to the core of what a business truly is and who it's truly for. We build positioning that is specific, defensible, and genuinely differentiated in the market. We develop verbal and visual identity systems that are distinctive, consistent, and built to scale. And we create the guidelines that ensure the brand stays sharp and consistent no matter how many channels it operates across or how fast it grows.
@@ -1720,8 +1454,7 @@ export const blogs = [
       },
       {
         heading: "Conclusion",
-        image:"https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=1600&auto=format&fit=crop",
-        content : `
+     content : `
           Brand identity and strategy is not a creative luxury. It's a business necessity. It's the foundation that determines how your audience perceives you, how your marketing performs, and how your brand compounds in value over time.
           Brands that invest in getting this right before they scale build faster, convert better, and retain customers longer than brands that treat identity as an afterthought.
           Your brand is the most valuable asset your business has. Build it with the intention it deserves.
@@ -1736,16 +1469,10 @@ export const blogs = [
     slug: "event-occasion-marketing",
 
     category: "Event & Occasion Marketing",
-
-    heroImage:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1800&auto=format&fit=crop",
     intro:"Every calendar has dates. Every industry has moments. Every culture has occasions.The brands that win are the ones that show up for all of them with intention, creativity, and a strategy built to convert attention into action.Event and occasion marketing is not about jumping on every trend or flooding your audience's feed with festival graphics. It's about understanding which moments matter to your audience, showing up in a way that feels genuine and relevant, and using those moments to build brand memory that lasts long after the occasion has passed.",
     sections: [
       {
         heading: "What Is Event Marketing?", 
-        image:
-          "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?q=80&w=1600&auto=format&fit=crop",
-
         content: `
           Event marketing is the strategy of promoting a brand, product, or service through live or virtual experiences and occasion-based campaigns that create direct engagement with a target audience.It covers everything from brand-hosted events, trade shows, product launches, and experiential activations to digital events, webinars, virtual conferences, and the strategic use of cultural occasions, festivals, and seasonal moments to create timely, relevant marketing campaigns.What is event-based marketing at its core? It's the recognition that people don't just buy products. They buy experiences, emotions, and moments. Event marketing creates those moments deliberately and uses them to build the kind of brand connection that conventional advertising rarely achieves.
           `,
@@ -1856,13 +1583,13 @@ export const blogs = [
     category: "Website Design & Management",
 
     heroImage:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1800&auto=format&fit=crop",
+      "",
     intro:"Your website is open 24 hours a day, 7 days a week, 365 days a year.It's the first place a potential customer goes after hearing about your brand. It's the last thing they see before they decide to buy, book, or walk away. It's your most hardworking salesperson, your most visible brand touchpoint, and your most measurable conversion asset all rolled into one.And yet, most brands treat it as a one-time project. Build it, launch it, forget it.That approach is costing them customers every single day.Professional website design and management is not a launch event. It's an ongoing discipline. And the brands that treat it that way consistently outperform those that don't.",
     sections: [
       {
         heading: "What Is Website Design and Management?", 
         image:
-          "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?q=80&w=1600&auto=format&fit=crop",
+          "",
 
         content: `
            Website design and management is the complete practice of building, maintaining, optimising, and continuously improving a brand's website to ensure it performs at its highest potential across design, speed, usability, and conversion.

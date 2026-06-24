@@ -93,7 +93,8 @@ z-index:20;
 width:90%;
 max-width:1200px;
 
-text-align:center;
+display: flex;
+flex-direction: column;
 
 color:white;
 }
@@ -105,11 +106,11 @@ font-size:13px;
 letter-spacing:5px;
 
 color:#d6b25e;
-
-margin-bottom:25px;
+margin-top: 30px;
+margin-bottom:-20px;
 }
 
-.hero-content h1{
+.hero-content h5{
 
 font-size:90px;
 
@@ -119,7 +120,7 @@ font-family:
 "Cormorant Garamond",
 serif;
 
-margin-bottom:30px;
+margin-bottom:10px;
 }
 
 .blog-intro{

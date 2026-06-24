@@ -20,20 +20,19 @@ const GTApexHero = () => {
           <div className="glass-panel">
             <nav className="navbar">
               <div className="logo-box">
-                <span>WELCOME TO  GT Apex<br /></span>
-                
+                <h2>The Digital Marketing Agency in Hyderabad <br /><span>Built for Growth</span></h2>
               </div>
             </nav>
             
             <div className="hero-text-area">
-              <h5>MARKETING is here.   We are MARKETING. <br />We do MARKETING.<br/></h5>
+              <p>GT Apex is a performance-first marketing agency helping businesses grow through SEO, social media marketing, website development, branding, and performance marketing. We combine creativity with data to deliver measurable business results.</p>
                 <div className = "btn-con">
                     <button className="explore-btn" onClick={() => history.push('/services')}>
                         Explore Services
                     </button>
-                        <button className="explore-btn" onClick={() => history.push('/about')}>
-                            About Us
-                        </button>
+                    <button className="explore-btn" onClick={() => history.push('/about')}>
+                        About Us
+                    </button>
                 </div>
             </div>
           </div>

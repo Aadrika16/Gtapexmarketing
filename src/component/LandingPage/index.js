@@ -6,41 +6,22 @@ const LandingPage = () => {
       <div className="landing-image-container">
 
         <div className="landing-image">
-          <img
-            src="https://res.cloudinary.com/doyaebals/image/upload/v1777292814/WhatsApp_Image_2026-04-27_at_5.54.48_PM_szf6jn.jpg"
-            alt="Marketing Banner"
-          />
+         
         </div>
 
         <div className="landing-content">
-          <p className="tag">— STRATEGY & VISION</p>
+          <p className="tag">— STRATEGY & CREATIVITY & PERFORMANCE</p>
 
           <h2>
-            YOUR BRAND, <br />
-            OUR STRATEGY, <br />
-            <span>REAL RESULTS.</span>
+            HYDERABAD'S PERFORMANCE-FIRST MARKETING AGENCY
+            <span></span>
           </h2>
-
+          <h5>The Digital Marketing Agency in Hyderabad Built for Growth</h5>
           <p className="description">
-           We don’t just run campaigns — we plan, design, and execute strategies that actually grow your business.
-           Every step we take is focused on helping your brand stand out, reach the right audience, and achieve measurable success.
+            GT Apex Marketing is a performance-first digital marketing agency in Hyderabad helping startups and growing businesses scale through data-driven strategies and creative execution. From branding and social media marketing to SEO, paid advertising, website development, and lead generation, we build marketing systems that deliver measurable results.
+            Whether you're launching a new brand or accelerating an existing one, GT Apex is the best digital marketing agency in Hyderabad for businesses that want real growth—not just vanity metrics.
+
           </p>
-          <div className="features">
-            <div className="feature">
-              <div>
-                <h4>MARKET INSIGHT</h4>
-                <p>We continuously track your market and audience behavior, so your brand stays ahead of trends and competitors.</p>
-              </div>
-            </div>
-
-            <div className="feature">
-              <div>
-                <h4>GROWTH ENGINE</h4>
-                <p>We use proven strategies and smart systems to help your business scale faster and more efficiently.</p>
-              </div>
-            </div>
-          </div>
-
         </div>
         </div>
 

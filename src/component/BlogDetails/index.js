@@ -44,9 +44,9 @@ const BlogDetails = () => {
             {blog.category}
           </p>
 
-          <h1>
+          <h5>
             {blog.title}
-          </h1>
+          </h5>
 
           <p className="blog-intro">
             {blog.intro}

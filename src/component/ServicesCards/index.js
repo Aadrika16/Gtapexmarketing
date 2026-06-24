@@ -97,7 +97,7 @@ const services = [
 const ServicesCards = () => {
   const history = useHistory();
   const handleClick = (service) => {
-    history.push(`/services/${service.slug}`);
+    history.push(`/blogs/${service.slug}`);
   };
 
   return (

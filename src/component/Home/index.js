@@ -1,7 +1,6 @@
 import PopUpModel from "../PopUpModel"
 import Header from "../Header"
 import StatsCards from "../StatsCards"
-import HeroSection from "../HeroSection"
 import PitStopProtocol from "../PitStopProtocol"
 import LandingPage from "../LandingPage"
 import ServicesCards from "../ServicesCards"
@@ -11,13 +10,11 @@ import GtApexHero from "../GtApexHero"
 import "./index.css"
 
 const Home = () => {
-  
-  
+    
   return (
     <div className="home-container">
 
        <PopUpModel />
-
 
       <Header />
 

@@ -18,18 +18,14 @@
 /* LEFT IMAGE */
 .landing-image {
   flex: 1;
-  display: flex;
-  justify-content: center;
-}
-
-.landing-image img {
-  width: 100%;
   max-width: 650px;
+  width: 100%;
   height: 450px;
-  object-fit: cover;
 
-  /* 🔥 IMPORTANT: hides unwanted right-side graphic */
-  object-position: left;
+  background-image: url("https://res.cloudinary.com/doyaebals/image/upload/v1781527199/GTAPEX_FLYER1_1_rdtkbn.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
   border-radius: 8px;
 }
@@ -48,16 +44,19 @@
 }
 
 .landing-content h2 {
-  font-size: 58px;
-  line-height: 1.05;
+  font-size: 20px;
+  letter-spacing: 2px; /* space between letters */
   font-weight: 700;
-  margin-bottom: 24px;
+  margin-bottom: 10px;
 }
 
-.landing-content h2 span {
+.landing-content h2 h5 {
   color: #00ff88;
 }
 
+h5{
+  color: #00ff88;
+}
 .description {
   color: #bdbdbd;
   font-size: 16px;
@@ -98,9 +97,14 @@
     font-size: 42px;
   }
 
-  .landing-image img {
-    height: 360px;
-  }
+
+  .landing-image {
+    width: 100%;
+    height: 350px;
+    background-size: contain;
+    background-position: center;
+  
+}
 }
 
 /* Mobile */

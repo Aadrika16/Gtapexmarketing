@@ -44,6 +44,9 @@ const PopupModal = () => {
             Connect with Us!
           </h2>
 
+
+
+
           <p className="popup-subtitle">
             Register now and get a free consultation.
           </p>

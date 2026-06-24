@@ -5,11 +5,10 @@ const AuditSection = () => {
   return (
     <div className="audit-container">
       <div className="audit-content">
-        <h2>INITIALIZE PERFORMANCE GROWTH</h2>
+        <h2>READY TO ACCELERATE YOUR GROWTH?</h2>
 
         <p>
-          Is your current infrastructure creating drag? Connect with our
-          team for a full systemic diagnostic and ROI projection.
+          Partner with a performance-first digital marketing agency that combines strategy, creativity, and data to help your business grow faster and smarter.
         </p>
 
         <div className="audit-form">
@@ -19,7 +18,7 @@ const AuditSection = () => {
             placeholder="ENTER WORK EMAIL"
           />
 
-          <button>READY TO GROW</button>
+          <button>BOOK A FREE STRATEGY CALL</button>
         </div>
       </div>
 
