@@ -1,4 +1,5 @@
 import "./index.css";
+import { useHistory } from "react-router-dom";
 import Header from "../Header";
 const clients = [
   {
@@ -33,9 +34,34 @@ const clients = [
     impact:
       "GT Apex supports TFI through digital campaigns, event promotions, social media management, and audience engagement strategies.",
   },
+  {
+  title: "Promarvel Signature Salon",
+  subtitle: "Where Beauty Meets Confidence.",
+  description:
+    "Promarvel Signature Salon offers professional hair care, skincare, makeup, styling, and beauty services with a strong focus on delivering premium customer experiences. The salon combines expert beauty solutions with personalized care to help clients look and feel their best.",
+  impact:
+    "GT Apex supports Promarvel Signature Salon through elegant visual content, campaign creatives, social media management, and digital marketing strategies that showcase the salon's expertise and attract new clients.",
+},
+{
+  title: "Srimathi Silks",
+  subtitle: "Celebrating Tradition with Timeless Elegance.",
+  description:
+    "Srimathi Silks is a premium saree brand offering carefully curated collections of silk, bridal, festive, and designer sarees. The brand is dedicated to preserving traditional craftsmanship while presenting elegant and contemporary designs for every occasion.",
+  impact:
+    "GT Apex helps Srimathi Silks grow its digital presence through luxury-focused campaigns, visual storytelling, product presentations, and social media content that highlights the heritage, craftsmanship, and elegance behind every collection.",
+},
 ];
 
 const AboutUs = () => {
+  const history = useHistory();
+
+  const handleStrategyCall = () => {
+    history.push("/register"); // Register Form Route
+  };
+
+  const handleServices = () => {
+    history.push("/services"); // Services Page Route
+  };
   return (
     <>
       <Header />
@@ -184,8 +210,8 @@ const AboutUs = () => {
             <p>Strategy. Creativity. Performance.</p>
 
             <div className="cta-buttons">
-              <button>Book a Free Strategy Call</button>
-              <button className="outline-btn">Explore Our Services</button>
+              <button onClick={handleStrategyCall}>Book a Free Strategy Call</button>
+              <button className="outline-btn" onClick={handleServices}>Explore Our Services</button>
             </div>
           </div>
         </section>
