@@ -183,14 +183,14 @@
   line-height: 1.4;
 }
 
-.services-grid,
+.sd-services-grid,
 .why-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
 
-.service-card {
+.sd-service-card {
   min-height: 270px;
   background: linear-gradient(145deg, #101412, #070707);
   border: 1px solid rgba(255,255,255,0.09);
@@ -215,7 +215,7 @@
   margin-bottom: 22px;
 }
 
-.service-card h3 {
+.sd-service-card h3 {
   font-size: 21px !important;
   line-height: 1.25 !important;
   font-weight: 800 !important;
@@ -223,7 +223,7 @@
   color: #fff;
 }
 
-.service-card p {
+.sd-service-card p {
   color: #bdbdbd;
   line-height: 1.7;
   font-size: 15px;
@@ -340,7 +340,7 @@
     text-align: center;
   }
 
-  .services-grid,
+  .sd-services-grid,
   .why-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -389,12 +389,12 @@
   }
 
   .overview-stats,
-  .services-grid,
+  .sd-services-grid,
   .why-grid {
     grid-template-columns: 1fr;
   }
 
-  .service-card,
+  .sd-service-card,
   .why-card {
     min-height: auto;
   }

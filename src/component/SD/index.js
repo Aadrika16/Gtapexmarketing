@@ -89,9 +89,9 @@ const SD = () => {
         <section className="services-section">
           <h2>{service.servicesTitle}</h2>
 
-          <div className="services-grid">
+          <div className="sd-services-grid">
             {service.services.map((item) => (
-              <div className="service-card" key={item}>
+              <div className="sd-service-card" key={item}>
                 <div className="service-icon">✓</div>
 
                 <h3>{item}</h3>
