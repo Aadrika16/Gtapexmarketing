@@ -73,17 +73,15 @@
 .gt-chat-header {
   background: linear-gradient(135deg, #00d26a, #008f47);
 
-  padding: 18px;
+  min-height: 90px;
+
+  padding: 16px 20px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
 
-.gt-chat-header {
-  position: sticky;
-  top: 0;
-  z-index: 10;
+  flex-shrink: 0;
 }
 .gt-header-left {
   display: flex;
@@ -165,7 +163,11 @@
 
   border-radius: 10px;
 }
-
+.gt-chat-body {
+  flex: 1;
+  overflow-y: auto;
+  min-height: 0;
+}
 /* BOT MESSAGE */
 
 .gt-bot-container {
