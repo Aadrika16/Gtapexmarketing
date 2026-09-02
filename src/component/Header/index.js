@@ -3,6 +3,7 @@ import { Link, useLocation, useHistory } from 'react-router-dom'
 import {
   FaHome,
   FaServicestack,
+  FaGraduationCap,
   FaInfoCircle,
   FaBars,
   FaTimes,
@@ -22,6 +23,7 @@ const Header = () => {
 
   const isHomeActive = location.pathname === '/'
   const isAboutActive = location.pathname === '/about'
+  const isAcademyActive = location.pathname.startsWith('/academy')
   const isServicesActive = location.pathname.startsWith('/services')
 
   const toggleRegister = () => {
@@ -30,18 +32,19 @@ const Header = () => {
     setShowServicesDropdown(false)
   }
 
- const handleServicesClick = () => {
-  if (window.innerWidth <= 768) {
-    if (!showServicesDropdown) {
-      setShowServicesDropdown(true)
+  const handleServicesClick = () => {
+    if (window.innerWidth <= 768) {
+      if (!showServicesDropdown) {
+        setShowServicesDropdown(true)
+      } else {
+        closeMobileMenu()
+        history.push('/services')
+      }
     } else {
-      closeMobileMenu()
       history.push('/services')
     }
-  } else {
-    history.push('/services')
   }
-}
+
   const closeMobileMenu = () => {
     setOpen(false)
     setShowServicesDropdown(false)
@@ -142,7 +145,6 @@ const Header = () => {
               </li>
             </ul>
           </li>
-
           <li>
             <Link
               to="/about"
@@ -151,6 +153,16 @@ const Header = () => {
             >
               <FaInfoCircle />
               About Us
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/academy"
+              onClick={closeMobileMenu}
+              className={isAcademyActive ? 'active' : ''}
+            >
+              <FaGraduationCap />
+              Academy
             </Link>
           </li>
 

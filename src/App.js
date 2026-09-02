@@ -1,10 +1,11 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./component/Home";
 import Services from "./component/Services";
-import SD from "./component/SD"
+import SD from "./component/SD";
 import Clients from "./component/Clients";
 import Contact from "./component/Contact";
 import AboutUs from "./component/AboutUs";
+import Academy from "./component/Academy"; // Added Academy import
 import BlogDetails from "./component/BlogDetails";
 import NotFound from "./component/NotFoundPage";
 import GtApexAssistant from "./component/GtApexAssistant";
@@ -47,7 +48,12 @@ function App() {
           path="/about"
           component={AboutUs}
         />
-        <Route exact path="/register" component = {RegisterForm} />
+        <Route 
+          exact 
+          path="/academy" 
+          component={Academy} 
+        /> {/* Added Academy Route */}
+        <Route exact path="/register" component={RegisterForm} />
         <Route
           exact
           path="/not-found"
