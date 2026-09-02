@@ -38,9 +38,9 @@ const Home = () => {
       <ServicesCards />
 
       <PitStopProtocol />
+      <TrustedByMarquee />
 
       <FounderSection />
-      <TrustedByMarquee />
 
       <FooterSection />
 
