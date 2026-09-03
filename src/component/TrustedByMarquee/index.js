@@ -10,7 +10,8 @@ const TrustedByMarquee = () => {
     { src: '/logos/mealmatch.png', alt: 'Meal Match' },
     { src: '/logos/sindhuparcel.png', alt: 'Sindhu Parcel'},
     { src: '/logos/anvika.png', alt: 'Anvika'},
-    { src: '/logos/vg.png', alt: 'VG' }
+    { src: '/logos/vg.png', alt: 'VG' },
+    {src: '/logos/vajraLogo.png', alt: 'Vajra'}
   ];
 
   // Row 2 logos - scrolls right
