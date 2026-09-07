@@ -5,7 +5,6 @@ import PitStopProtocol from "../PitStopProtocol"
 import LandingPage from "../LandingPage"
 import ServicesCards from "../ServicesCards"
 import FooterSection from "../FooterSection"
-import FounderSection from "../FounderSection"
 import GtApexHero from "../GtApexHero"
 import TrustedByMarquee from "../TrustedByMarquee"
 import "./index.css"
@@ -40,7 +39,6 @@ const Home = () => {
       <PitStopProtocol />
       <TrustedByMarquee />
 
-      <FounderSection />
 
       <FooterSection />
 
