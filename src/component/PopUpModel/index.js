@@ -6,6 +6,7 @@ import "./index.css";
 
 const PopupModal = () => {
   const [showPopup, setShowPopup] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -24,39 +25,49 @@ const PopupModal = () => {
 
         {/* LEFT IMAGE */}
         <div className="popup-image-section">
+
           <img
             src="https://res.cloudinary.com/doyaebals/image/upload/v1778328086/WhatsApp_Image_2026-05-09_at_5.29.05_PM_gdkued.jpg"
-            alt="popup"
+            alt="GT Apex Marketing"
           />
+
         </div>
 
-        {/* RIGHT FORM */}
+        {/* RIGHT SECTION */}
         <div className="popup-form-section">
 
           <button
             className="close-btn"
+            type="button"
             onClick={() => setShowPopup(false)}
           >
             <IoClose />
           </button>
 
           <h2 className="popup-title">
-            Connect with Us!
+            {submitted
+              ? "SUBMITTED SUCCESSFULLY"
+              : "CONNECT WITH US!"}
           </h2>
 
-
-
-
-          <p className="popup-subtitle">
-            Register now and get a free consultation.
-          </p>
+          {!submitted && (
+            <p className="popup-subtitle">
+              Register now and get a free consultation.
+            </p>
+          )}
 
           <div className="register-card">
-            <RegisterForm />
+
+            <RegisterForm
+              onSuccess={() => setSubmitted(true)}
+            />
+
           </div>
 
         </div>
+
       </div>
+
     </div>
   );
 };

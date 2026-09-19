@@ -5,6 +5,7 @@ import {
   FaServicestack,
   FaGraduationCap,
   FaInfoCircle,
+  FaUsers,
   FaBars,
   FaTimes,
   FaChevronDown
@@ -25,6 +26,7 @@ const Header = () => {
   const isAboutActive = location.pathname === '/about'
   const isAcademyActive = location.pathname.startsWith('/academy')
   const isServicesActive = location.pathname.startsWith('/services')
+  const isEmployeesActive = location.pathname.startsWith('/employees')
 
   const toggleRegister = () => {
     setShowRegister(prev => !prev)
@@ -163,6 +165,16 @@ const Header = () => {
             >
               <FaGraduationCap />
               Academy
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/employees"
+              onClick={closeMobileMenu}
+              className={isEmployeesActive ? 'active' : ''}
+            >
+              <FaUsers />
+              Employees
             </Link>
           </li>
 
