@@ -574,3 +574,9 @@
     line-height: 1.7;
   }
 }
+.form-error {
+  color: #ff6b6b;
+  font-size: 13px;
+  margin: 0;
+  line-height: 1.4;
+}
