@@ -7,18 +7,18 @@ import FooterSection from '../FooterSection'
 import './index.css'
 
 const employeesList = [
-  { id: '0001', name: 'Krishna', role: 'Managing Director & CEO', email: 'krishnadevkola@gmail.com', image: 'https://res.cloudinary.com/doyaebals/image/upload/v1777117610/82023ee6966f15c767c25263f523a655a0945cfe_bxiaan.png' },
-  { id: '0002', name: 'Vamsi Girijala', role: 'Managing Director & COO', email: 'vamsi@gtapexmarketing.com', image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80' },
-  { id: '0003', name: 'Anju', role: 'Client Manager & CMO', email: 'anju@gtapexmarketing.com', image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&auto=format&fit=crop&q=80' },
-  { id: '0004', name: 'Ankith Rao', role: 'HR & Marketing Coordinator', email: 'ankithrao704@gmail.com', image: 'https://res.cloudinary.com/doyaebals/image/upload/v1777117610/82023ee6966f15c767c25263f523a655a0945cfe_bxiaan.png' },
-  { id: '0005', name: 'Harikrishna', role: 'Digital Marketing Team Lead', email: 'hkdnetha@gmail.com', image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80' },
-  { id: '0006', name: 'Shiva Kumar', role: 'Video Editor', email: 'shiva.gtam@gmail.com', image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80' },
-  { id: '0007', name: 'Varshith', role: 'Graphic Designer', email: 'varshithuiuxdesigner@gmail.com', image: 'https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=400&auto=format&fit=crop&q=80' },
-  { id: '0008', name: 'Madhuri', role: 'Full Stack Developer', email: 'madhurigtam@gmail.com', image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80' },
-  { id: '0009', name: 'Divya', role: 'Digital Marketing Lead', email: 'saidivya.gtam@gmail.com', image: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400&auto=format&fit=crop&q=80' },
-  { id: '0010', name: 'Vikram Pagadala', role: 'DOP & Technology Manager', email: 'Vikram.gtma@gmail.com', image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=80' },
-  { id: '0011', name: 'Prem Boppisetty', role: 'Graphic & UI/UX Designer', email: 'Premvfx2@gmail.com', image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&auto=format&fit=crop&q=80' },
-  { id: '0012', name: 'Banavath Prakash', role: 'Video Editor', email: 'prakashchavan.gtam@gmail.com', image: 'https://images.unsplash.com/photo-1472099645784-5658abf4ff4e?w=400&auto=format&fit=crop&q=80' },
+  { id: '0001', name: 'Krishna', role: 'Managing Director & CEO', email: 'krishnadevkola@gmail.com', image: '/employees/01.webp' },
+  { id: '0002', name: 'Vamsi Girijala', role: 'Managing Director & COO', email: 'vamsi@gtapexmarketing.com', image: '/employees/002.webp' },
+  { id: '0003', name: 'Anju', role: 'Client Manager & CMO', email: 'anju@gtapexmarketing.com', image: '/employees/003.webp' },
+  { id: '0004', name: 'Ankith Rao', role: 'HR & Marketing Coordinator', email: 'ankithrao704@gmail.com', image: '/employees/0004.webp' },
+  { id: '0005', name: 'Harikrishna', role: 'Digital Marketing Team Lead', email: 'hkdnetha@gmail.com', image: '/employees/0005.webp' },
+  { id: '0006', name: 'Shiva Kumar', role: 'Video Editor', email: 'shiva.gtam@gmail.com', image: '/employees/006.webp' },
+  { id: '0007', name: 'Varshith', role: 'Graphic Designer', email: 'varshithuiuxdesigner@gmail.com', image: '/employees/007.webp' },
+  { id: '0008', name: 'Madhuri', role: 'Full Stack Developer', email: 'madhurigtam@gmail.com', image: '/employees/0008.webp' },
+  { id: '0009', name: 'Divya', role: 'Digital Marketing Lead', email: 'saidivya.gtam@gmail.com', image: '/employees/0009.webp' },
+  { id: '0010', name: 'Vikram Pagadala', role: 'DOP & Technology Manager', email: 'Vikram.gtma@gmail.com', image: '/employees/010.webp' },
+  { id: '0011', name: 'Prem Boppisetty', role: 'Graphic & UI/UX Designer', email: 'Premvfx2@gmail.com', image: '/employees/0011.webp' },
+  { id: '0012', name: 'Banavath Prakash', role: 'Video Editor', email: 'prakashchavan.gtam@gmail.com', image: '/employees/0012.webp' },
   { id: '0013', name: 'Teja', role: 'UI/UX Designer & Graphic Designer', email: 'teja.gtam@gmail.com', image: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=400&auto=format&fit=crop&q=80' }
 ]
 

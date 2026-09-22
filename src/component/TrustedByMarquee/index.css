@@ -39,8 +39,16 @@
 
 .marquee-content {
   display: flex;
-  gap: 60px;
+  --marquee-gap: 60px;
   align-items: center;
+}
+
+.marquee-group {
+  display: flex;
+  gap: var(--marquee-gap);
+  padding-right: var(--marquee-gap);
+  align-items: center;
+  flex-shrink: 0;
 }
 
 /* Left scrolling animation (Row 1) */
@@ -114,7 +122,7 @@
   }
 
   .marquee-content {
-    gap: 50px;
+    --marquee-gap: 50px;
   }
 
   .logo-wrapper {
@@ -140,7 +148,7 @@
   }
 
   .marquee-content {
-    gap: 40px;
+    --marquee-gap: 40px;
   }
 
   .logo-wrapper {
@@ -166,7 +174,7 @@
   }
 
   .marquee-content {
-    gap: 25px;
+    --marquee-gap: 25px;
   }
 
   .logo-wrapper {

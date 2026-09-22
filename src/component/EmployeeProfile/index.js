@@ -13,7 +13,7 @@ const employeesData = {
     role: 'Managing Director & CEO',
     email: 'krishnadevkola@gmail.com',
     phone: '+91 6301617216',
-    image: 'https://res.cloudinary.com/doyaebals/image/upload/v1777117610/82023ee6966f15c767c25263f523a655a0945cfe_bxiaan.png',
+    image: '/employees/001.webp',
     responsibilities: [
       'Vision and Strategy',
       'Revenue and businesses growth',
@@ -29,7 +29,7 @@ const employeesData = {
     role: 'Managing Director & COO',
     email: 'vamsi@gtapexmarketing.com',
     phone: '+91 91234 56789',
-    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80',
+    image: '/employees/0002.webp',
     responsibilities: ['Operations, Management, and Strategic Execution']
   },
   '0003': {
@@ -37,7 +37,7 @@ const employeesData = {
     role: 'Client Manager & CMO',
     email: 'anju@gtapexmarketing.com',
     phone: '+91 99887 66554',
-    image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&auto=format&fit=crop&q=80',
+    image: '/employees/0003.webp',
     responsibilities: ['Client Management and Chief Marketing Operations']
   },
   '0004': {
@@ -45,7 +45,7 @@ const employeesData = {
     role: 'HR & Marketing Coordinator',
     email: 'ankithrao704@gmail.com',
     phone: '+91 79818 15006',
-    image: 'https://res.cloudinary.com/doyaebals/image/upload/v1777117610/82023ee6966f15c767c25263f523a655a0945cfe_bxiaan.png',
+    image: '/employees/0004.webp',
     responsibilities: [
       'Manage social media accounts, content calendars, posts, reels, stories, and campaigns.',
       'Coordinate with clients and creative teams for timely content delivery.',
@@ -63,7 +63,7 @@ const employeesData = {
     dateOfRelieving: '',
     email: 'hkdnetha@gmail.com',
     phone: '+91 95058 06820',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80',
+    image: '/employees/0005.webp',
     responsibilities: [
       'Manage and guide the team.',
       'Assign tasks and set priorities.',
@@ -82,7 +82,7 @@ const employeesData = {
     role: 'Video Editor',
     email: 'shiva.gtam@gmail.com',
     phone: '+91 79899 04351',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80',
+    image: '/employees/0006.webp',
     responsibilities: [
       'CapCut: professional reel editing, Instagram reels, YouTube shorts, beat sync edits, smooth transitions, auto captions, speed ramping, text animations.',
       'Alight Motion: cinematic text animations, keyframes, glow effects, camera movements, beat sync effects.',
@@ -96,7 +96,7 @@ const employeesData = {
     role: 'Graphic Designer',
     email: 'varshithuiuxdesigner@gmail.com',
     phone: '+91 63006 17850',
-    image: 'https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=400&auto=format&fit=crop&q=80',
+    image: '/employees/0007.webp',
     responsibilities: [
       'Create professional and visually engaging designs for social media, advertisements, websites, presentations, brochures, posters, and banners.',
       'Design social media posts, stories, carousels, thumbnails, and promotional creatives.',
@@ -108,7 +108,7 @@ const employeesData = {
     role: 'Full Stack Developer',
     email: 'madhurigtam@gmail.com',
     phone: '+91 82478 05403',
-    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80',
+    image: '/employees/0008.webp',
     responsibilities: [
       'Design, develop, test, deploy, and maintain responsive websites and web applications.',
       'Develop front-end and back-end components using HTML, CSS, JavaScript, React, Bootstrap, and Node backend frameworks.',
@@ -121,7 +121,7 @@ const employeesData = {
     role: 'Digital Marketing Lead',
     email: 'saidivya.gtam@gmail.com',
     phone: '+91 91139 65770',
-    image: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400&auto=format&fit=crop&q=80',
+    image: '/employees/0009.webp',
     responsibilities: [
       'Lead and manage the digital marketing team, assigning tasks, setting priorities, and ensuring timely execution.',
       'Develop and execute comprehensive digital marketing strategies aligned with growth objectives.',
@@ -134,7 +134,7 @@ const employeesData = {
     role: 'DOP & Technology Manager',
     email: 'Vikram.gtma@gmail.com',
     phone: '+91 94933 59209',
-    image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=80',
+    image: '/employees/0010.webp',
     responsibilities: [
       'Workflow Optimization: Eliminating bottlenecks and building SOPs to maximize productivity.',
       'QA & Compliance: Ensuring all products, services, and operations meet industry standards.',
@@ -147,7 +147,7 @@ const employeesData = {
     role: 'Graphic & UI/UX Designer',
     email: 'Premvfx2@gmail.com',
     phone: '+91 88971 33883',
-    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&auto=format&fit=crop&q=80',
+    image: '/employees/0011.webp',
     responsibilities: [
       'Design graphics for websites, social media, marketing, and branding.',
       'Create UI designs, wireframes, mockups, and prototypes for websites and apps.',
@@ -160,7 +160,7 @@ const employeesData = {
     role: 'Video Editor',
     email: 'prakashchavan.gtam@gmail.com',
     phone: '+91 91331 58381',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80',
+    image: '/employees/0012.webp',
     responsibilities: [
       'Create professional Reels, Short Videos, Documentary Videos, Promotional Videos, and AI Videos.',
       'Edit videos according to script references, brand guidelines, and creative direction.',

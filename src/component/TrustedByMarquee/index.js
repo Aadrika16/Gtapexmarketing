@@ -32,16 +32,13 @@ const TrustedByMarquee = () => {
     return (
     <div className={`marquee-row`}>
       <div className={`marquee-content`} style={animationStyle}>
-        {/* First set */}
-        {logos.map((logo, idx) => (
-          <div key={`first-${idx}`} className="logo-wrapper">
-            <img src={logo.src} alt={logo.alt} loading="lazy" />
-          </div>
-        ))}
-        {/* Duplicate set for seamless loop */}
-        {logos.map((logo, idx) => (
-          <div key={`duplicate-${idx}`} className="logo-wrapper">
-            <img src={logo.src} alt={logo.alt} loading="lazy" />
+        {[0, 1].map(setIndex => (
+          <div className="marquee-group" key={setIndex}>
+            {logos.map((logo, idx) => (
+              <div key={`${setIndex}-${idx}`} className="logo-wrapper">
+                <img src={logo.src} alt={logo.alt} loading="lazy" />
+              </div>
+            ))}
           </div>
         ))}
       </div>
