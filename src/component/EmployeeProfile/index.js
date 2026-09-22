@@ -13,7 +13,7 @@ const employeesData = {
     role: 'Managing Director & CEO',
     email: 'krishnadevkola@gmail.com',
     phone: '+91 6301617216',
-    image: '/employees/001.webp',
+    image: '/employees/01.webp',
     responsibilities: [
       'Vision and Strategy',
       'Revenue and businesses growth',
